@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Projetos</title>
+</head>
+<body>
+  <header class="banner">
+    <h1><span class="azul">Portf</span><span class="branco">ólio</span></h1>
+    <ul class="menu">
+      <li><a href="index.html">Sobre</a></li>
+      <li><a href="projeto.html" class="active">Projetos</a></li>
+    </ul>
+  </header>
+  
+  <div class="wrapper">
+    <div class="projetos">
+      <div class="imagem">
+        <img src="imagens/site.png" data-src="imagens/site.png" class="images" alt="preto"> 
+      </div>
+      <div class="descriçao">
+        <h2>Primeiro site</h2>
+        <p>
+          Esse foi meu primeiro site. criado usando python, css e html.
+          <br>Também conta com um banco de dados em MySQL.
+        </p>
+        <div class="btn">
+          <button id="show-more">▼ Mostrar Mais</button> 
+          <a href="https://github.com/rick-oss/meu-site" target="_blank">Ver código
+            <div class="circle">
+              <div class="arrow">></div>
+            </div>
+          </a>           
+        </div> 
+      </div>                        
+    </div>
+    <div class="detalhes-projeto">
+      <div class="detalhes-imagem">
+        <img src="imagens/login.png" data-src="imagens/login.png" class="images" alt="Login Form">
+        <img src="imagens/registro.png" data-src="imagens/registro.png" class="images"  alt="Signup Form">
+      </div>
+      <p>
+        Contém formulários estilizados em CSS personalizado.
+        <br>Integrado com um banco de dados MySQL que armazena 
+        <br>nomes de usuário e senhas para autenticaçao. 
+        <br>As senhas são armazenadas de forma segura, utilizando 
+        <br>o algoritmo de criptografia, bcrypt.
+      </p> 
+    </div>       
+  </div>
+  <div id="lightbox" class="hidden">
+    <img id="lightboxImagem" src="" alt="Imagem em tamanho real">
+  </div>
+</body>
+</html>

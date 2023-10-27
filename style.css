@@ -17,6 +17,13 @@ body {
     background-color: #000a10;
 }
 
+@media (max-width:600px) {
+    body {
+        width: 80%;
+        height: 80%;
+    }
+}
+
 /* Estilizaçao do cabeçalho */
 .banner {
     display: flex;
@@ -238,7 +245,8 @@ h1 .branco {
 }
 
 .projetos .imagem {
-    width: 100%; /* Garante que as imagens não ultrapassem a largura da div */
+    width: 100%;
+    /* Garante que as imagens não ultrapassem a largura da div */
     padding: 10px;
 }
 

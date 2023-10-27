@@ -19,21 +19,7 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        display: block;
-    }
-
-    .container .infos {
-        display: block;
-        /* Altera para o layout de bloco */
-        width: 100%;
-        /* Ocupa a largura total da tela */
-    }
-
-    .container .sobre {
-        display: block;
-        /* Altera para o layout de bloco */
-        width: 100%;
-        /* Ocupa a largura total da tela */
+        flex-direction: column;
     }
 
     .banner {

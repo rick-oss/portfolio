@@ -23,8 +23,7 @@ body {
         overflow-y: auto;
     }
 
-    .conteiner,
-    .wrapper {
+    .conteiner {
         flex-direction: column;
     }
 

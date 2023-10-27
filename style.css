@@ -31,18 +31,23 @@ body {
         height: 70px;
     }
 
+    .banner .menu {
+        text-align: right;
+    }
+
     .banner h1 {
+        text-align: left;
         font-size: 15px;
         margin-left: 0;
     }
 
     .menu a {
         font-size: 12px;
-        margin-bottom: 30px;  
+        margin-bottom: 30px;
     }
 
     .menu li {
-        margin: 10px;
+        margin: 0;
     }
 }
 

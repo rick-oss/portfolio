@@ -18,6 +18,10 @@ body {
 }
 
 @media (max-width:600px) {
+    .conteiner {
+        display: block;
+    }
+
     .banner {
         height: 70px;
         margin: 0 auto;
@@ -31,11 +35,6 @@ body {
 
     .menu li {
         margin: 10px;
-    }
-
-    .menu a {
-        padding-bottom: 30px;
-        font-size: 5px;
     }
 }
 

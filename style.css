@@ -24,7 +24,7 @@ body {
     }
 
     .conteiner,
-    .wrapper .projetos {
+    .wrapper {
         flex-direction: column;
     }
 

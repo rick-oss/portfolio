@@ -18,11 +18,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .conteiner .infos  {
-        width: 100%;
-    }
-
-    .conteiner .sobre {
+    .conteiner {
+        display: block;
         width: 100%;
     }
 

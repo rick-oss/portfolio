@@ -22,10 +22,18 @@ body {
         display: block;
     }
 
+    .conteiner .infos {
+        width: 100%;
+    }
+
+    .conteiner .sobre {
+        width: 100%;
+    }
+
     .banner {
         height: 70px;
         margin: 0 auto;
-    } 
+    }
 
     .banner h1 {
         font-size: 25px;

@@ -22,6 +22,11 @@ body {
         flex-direction: column;
     }
 
+    .conteiner .sobre {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
     .banner {
         height: 70px;
         margin: 0 auto;

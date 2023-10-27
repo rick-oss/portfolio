@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-       overflow-x: hidden;
+       overflow: hidden;
        overflow-y: auto;
     }
 
@@ -39,7 +39,7 @@ body {
 
     .menu a {
         font-size: 12px;
-        margin-bottom: 30px;
+        padding-right: 10px;
     }
 
     .menu li {

@@ -37,6 +37,7 @@ body {
     }
 
     .banner h1 {
+        width: 100%;
         text-align: left;
         font-size: 15px;
         margin-left: 0;

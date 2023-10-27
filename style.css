@@ -29,16 +29,17 @@ body {
 
     .banner {
         height: 70px;
+        text-align: center;
     }
 
     .banner h1 {
         font-size: 15px;
-        margin-right: 40px;
+        margin-left: 0;
     }
 
     .menu a {
         font-size: 12px;
-        padding-bottom: 30px;  
+        margin-bottom: 30px;  
     }
 
     .menu li {

@@ -19,8 +19,8 @@ body {
 
 @media (max-width: 768px) {
     body {
-       overflow: hidden;
-       overflow-y: auto;
+        overflow: hidden;
+        overflow-y: auto;
     }
 
     .conteiner {
@@ -32,6 +32,10 @@ body {
         margin-top: 20px;
     }
 
+    .banner {
+        width: 100%;
+    }
+
     .banner h1 {
         font-size: 15px;
         padding-right: 30px;
@@ -39,11 +43,10 @@ body {
 
     .menu a {
         font-size: 12px;
-        padding-right: 10px;
     }
 
     .menu li {
-        margin: 10px;
+        margin: 0;
     }
 }
 

@@ -19,7 +19,6 @@ body {
 
 @media (max-width:600px) {
     .banner .menu {
-        width: 320px;
         height: 70px;
     } 
     .banner h1 {
@@ -30,6 +29,7 @@ body {
 
     .menu a {
         padding-bottom: 30px;
+        padding: 0px 0px;
         font-size: 15px;
     }
 }

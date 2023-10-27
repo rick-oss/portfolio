@@ -23,7 +23,8 @@ body {
         overflow-y: auto;
     }
 
-    .conteiner {
+    .conteiner,
+    .wrapper .projetos {
         flex-direction: column;
     }
 
@@ -35,10 +36,6 @@ body {
     .banner h1 {
         font-size: 15px;
         padding-right: 30px;
-    }
-
-    .banner .menu {
-        align-items: start;
     }
 
     .menu a {

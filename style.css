@@ -18,8 +18,8 @@ body {
 }
 
 @media (max-width:600px) {
-    .banner {
-        padding: 10px;
+    .banner .menu {
+        margin-left: 30px;       
     }
 }
 

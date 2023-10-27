@@ -25,10 +25,11 @@ body {
     .banner h1 {
         font-size: 25px;
         margin-left: 15px;
+        margin-right: 20px;
     }
 
     .menu a {
-        padding: 0;
+        padding-bottom: 30px;
         font-size: 15px;
     }
 }

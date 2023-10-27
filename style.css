@@ -27,27 +27,14 @@ body {
         margin-top: 20px;
     }
 
-    .banner {
-        height: 100px;
-    }
-
-    .banner .menu {
-        text-align: right;
-        border: 1px solid rgb(4, 87, 165);
-    }
-
     .banner h1 {
-        width: 50%;
         font-size: 15px;
-        margin-left: -25px;
-        border: 1px solid rgb(4, 87, 165);
+        padding-right: 30px;
     }
 
     .menu a {
         font-size: 12px;
         margin-bottom: 30px;
-        padding: 0;
-        border: 1px solid rgb(4, 87, 165);
     }
 
     .menu li {
@@ -70,7 +57,7 @@ body {
 .banner h1 {
     padding-top: 20px;
     font-size: 30px;
-    margin-left: 30px;
+    padding-left: 30px;
 }
 
 h1 .azul {

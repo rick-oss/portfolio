@@ -32,10 +32,6 @@ body {
         margin-top: 20px;
     }
 
-    .banner {
-        width: 100%;
-    }
-
     .banner h1 {
         font-size: 15px;
         padding-right: 30px;
@@ -86,6 +82,7 @@ h1 .branco {
     list-style: none;
     display: flex;
     background-color: transparent;
+    align-items: center;
 }
 
 .menu li {

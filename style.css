@@ -19,7 +19,7 @@ body {
 
 @media (max-width:600px) {
     .banner .menu {
-        width: 100%;
+        width: 320px;
         height: 70px;
     } 
     .banner h1 {

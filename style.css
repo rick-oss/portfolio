@@ -18,10 +18,15 @@ body {
 }
 
 @media (max-width: 768px) {
-    .conteiner {
-        display: block;
-        width: 100%;
-    }
+    .container .infos {
+        display: block; /* Altera para o layout de bloco */
+        width: 100%;   /* Ocupa a largura total da tela */
+      }
+    
+      .container .sobre {
+        display: block; /* Altera para o layout de bloco */
+        width: 100%;   /* Ocupa a largura total da tela */
+      }
 
     .banner {
         height: 70px;

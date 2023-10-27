@@ -37,6 +37,10 @@ body {
         padding-right: 30px;
     }
 
+    .banner .menu {
+        align-items: start;
+    }
+
     .menu a {
         font-size: 12px;
     }

@@ -17,12 +17,8 @@ body {
     background-color: #000a10;
 }
 
-@media (max-width:600px) {
-    .conteiner {
-        display: block;
-    }
-
-    .conteiner .infos {
+@media (max-width: 768px) {
+    .conteiner .infos  {
         width: 100%;
     }
 

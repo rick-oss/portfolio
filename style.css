@@ -40,16 +40,18 @@ body {
         text-align: left;
         font-size: 15px;
         margin-left: 0;
+        border: 1px solid rgb(4, 87, 165);
     }
 
     .menu a {
         font-size: 12px;
         margin-bottom: 30px;
         padding: 0;
+        border: 1px solid rgb(4, 87, 165);
     }
 
     .menu li {
-        margin: 15px;
+        margin: 10px;
     }
 }
 

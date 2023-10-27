@@ -33,6 +33,7 @@ body {
 
     .banner .menu {
         text-align: right;
+        border: 1px solid rgb(4, 87, 165);
     }
 
     .banner h1 {
@@ -44,10 +45,11 @@ body {
     .menu a {
         font-size: 12px;
         margin-bottom: 30px;
+        padding: 0;
     }
 
     .menu li {
-        margin: 0;
+        margin: 15px;
     }
 }
 

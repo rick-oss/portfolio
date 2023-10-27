@@ -29,13 +29,16 @@ body {
 
     .banner {
         height: 70px;
-        margin: 0 auto;
     }
 
     .banner h1 {
-        font-size: 25px;
-        margin-left: 15px;
-        margin-right: 20px;
+        font-size: 15px;
+        margin-right: 40px;
+    }
+
+    .menu a {
+        font-size: 12px;
+        padding-bottom: 30px;  
     }
 
     .menu li {

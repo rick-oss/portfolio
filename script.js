@@ -34,17 +34,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Codigo mostrar mais
 document.addEventListener("DOMContentLoaded", function () {
-    const showMoreButoon = document.getElementById('show-more')
-    const detalhesProjeto = document.querySelector('.detalhes-projeto')
+    const showMoreButtons = document.querySelectorAll('.show-more');
+    const detalhesProjetos = document.querySelectorAll('.detalhes-projeto');
 
-    showMoreButoon.addEventListener('click', () => {
-        if (detalhesProjeto.style.maxHeight) {
-            detalhesProjeto.style.maxHeight = null;
-            showMoreButoon.textContent = '▼ Mostrar Mais';
-        } else {
-            detalhesProjeto.style.maxHeight =  detalhesProjeto.scrollHeight + 'px';
-            showMoreButoon.textContent = '▲ Mostrar Menos'
-        }
+    showMoreButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            const detalhesProjeto = detalhesProjetos[index];
+
+            if (detalhesProjeto.style.maxHeight) {
+                detalhesProjeto.style.maxHeight = null;
+                button.textContent = 'Mostrar Mais ▼';
+            } else {
+                detalhesProjeto.style.maxHeight = detalhesProjeto.scrollHeight + 'px';
+                button.textContent = 'Mostrar Menos ▲';
+            }
+        });
     });
 });
-  

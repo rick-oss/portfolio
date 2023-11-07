@@ -17,6 +17,7 @@ body {
     background-color: #000a10;
 }
 
+/* Estilizaçao para suporte mobile */
 @media (max-width: 768px) {
     body {
         overflow: hidden;
@@ -58,6 +59,7 @@ body {
     z-index: 999;
 }
 
+/* Estilizaçao do titulo */
 .banner h1 {
     padding-top: 20px;
     font-size: 30px;
@@ -204,7 +206,7 @@ h1 .branco {
     margin: 3.5px;
 }
 
-
+/* Estilizaçao das imagens utilizadas na apresentaçao de habilidades*/
 .imagens .img-skill {
     width: 35px;
     height: 35px;
@@ -253,6 +255,7 @@ h1 .branco {
     max-width: 100%;
 }
 
+/* Estilizaçao de layout dos projetos */
 .wrapper .projetos {
     display: flex;
     text-align: center;
@@ -266,6 +269,7 @@ h1 .branco {
     margin-top: 50px;
 }
 
+/* Estilizaçao das imagens de apresentaçao */
 .projetos .imagem {
     width: 100%;
     /* Garante que as imagens não ultrapassem a largura da div */
@@ -284,6 +288,7 @@ h1 .branco {
     transform: scale(1.03);
 }
 
+/* estilizaçao dos textos de descriçao dos projetos */
 .projetos .descriçao {
     width: 100%;
     padding-left: 15px;
@@ -305,6 +310,7 @@ h1 .branco {
     margin-top: 25px;
 }
 
+/* Estilizaçao do layout dos botões */
 .descriçao .btn {
     display: flex;
     max-width: 100%;
@@ -321,6 +327,7 @@ h1 .branco {
 }
 */
 
+/* Estilizaçao dos botões ver codigo */
 .btn a {
     display: flex;
     text-decoration: none;
@@ -352,6 +359,7 @@ a .circle {
     color: #1a75ff;
 }
 
+/* Estilizaçao do botões mostrar mais */
 .btn .show-more {
     width: 134px;
     text-align: center;
@@ -371,6 +379,7 @@ a .circle {
     border-color: rgb(3, 72, 136);
 }
 
+/* Estilizaçao do layout do bloco mostrar mais */
 .wrapper .detalhes-projeto {
     max-height: 0;
     /*centraliza horizontalmente */
@@ -395,7 +404,7 @@ a .circle {
     flex-wrap: nowrap;
 }
 
-
+/* Estilizaçao das imagens de demonstraçao */
 .detalhes-projeto .detalhes-imagem {
     width: 100%;
     padding: 10px;
@@ -426,10 +435,9 @@ a .circle {
     margin-top: 3px;
     margin-bottom: 5px;
     cursor: pointer;
-
-
 }
 
+/* Estilizaçao dos layout dos textos */
 .detalhes-projeto .texto-1 {
     width: 100%;
     padding: 10px;
@@ -438,7 +446,6 @@ a .circle {
     text-indent: 30px;
     border-top: 1px solid rgb(0, 43, 83);
 }
-
 
 .detalhes-projeto .texto-2 {
     width: 90%;
@@ -471,6 +478,7 @@ a .circle {
     text-align: center;
 }
 
+/* Estilizaçao da imagem em tamanho real */
 #lightboxImagem {
     display: block;
     padding-top: 20px;

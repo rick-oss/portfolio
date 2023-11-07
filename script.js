@@ -37,10 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const showMoreButtons = document.querySelectorAll('.show-more');
     const detalhesProjetos = document.querySelectorAll('.detalhes-projeto');
 
+    // Adiciona um evento de click a todos os botões mostrar mais
     showMoreButtons.forEach((button, index) => {
         button.addEventListener('click', () => {
             const detalhesProjeto = detalhesProjetos[index];
 
+            // Adiciona uma transiçao entre mostrar e esconder o contéudo
             if (detalhesProjeto.style.maxHeight) {
                 detalhesProjeto.style.maxHeight = null;
                 button.textContent = 'Mostrar Mais ▼';

@@ -43,17 +43,14 @@ body {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        border: 1px solid rgb(0, 43, 83);
-    }
-
-    .menu li {
-        padding-left: 0;
-        border: 1px solid rgb(0, 43, 83)
     }
 
     .menu a {
         font-size: 12px;
-        border: 1px solid rgb(20, 122, 156);
+    }
+
+    .wrapper .projetos {
+        width: 100%;
     }
 }
 

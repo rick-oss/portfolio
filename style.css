@@ -47,7 +47,6 @@ body {
 
     .menu li {
         height: 100%;
-        padding-top: 10px;
         border: 1px solid rgb(0, 43, 83)
     }
 
@@ -56,6 +55,7 @@ body {
         height: 100%;
         font-size: 12px;
         padding-top: 10px;
+        padding-left: -5px;
         border: 1px solid rgb(20, 122, 156);
     }
 }

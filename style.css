@@ -40,13 +40,13 @@ body {
     }
 
     .menu {
-        display: flex;
-        align-items: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
         border: 1px solid rgb(0, 43, 83);
     }
 
     .menu li {
-        height: 100%;
         padding-top: 15px;
         border: 1px solid rgb(0, 43, 83)
     }

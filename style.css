@@ -56,10 +56,16 @@ body {
     .wrapper .projetos {
         width: 100%;
         border: none;
+        overflow: visible;
     }
 
     .projetos .descriçao {
+        width: 100%;
         border: 1px solid rgb(20, 122, 156);
+    }
+
+    .projetos .imagem {
+        width: 100%;
     }
 
     .projetos .detalhes-projeto {

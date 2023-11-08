@@ -40,6 +40,7 @@ body {
 
     .menu a {
         font-size: 12px;
+        border: 1px solid rgb(0, 43, 83);
     }
 
     .menu li {

@@ -57,6 +57,10 @@ body {
         width: 100%;
         border: 1px solid rgb(20, 122, 156)
     }
+
+    .projetos .descriçao {
+        border: 1px solid rgb(20, 122, 156);
+    }
 }
 
 /* Estilizaçao do cabeçalho */

@@ -19,6 +19,7 @@ body {
 
 /* Estilizaçao para suporte mobile */
 @media (max-width: 768px) {
+    /* template pagina inicial */
     body {
         overflow: hidden;
         overflow-y: auto;
@@ -52,24 +53,18 @@ body {
     .wrapper {
         border: 1px solid rgb(20, 122, 156);
     }
-
+    /* template projetos */
     .wrapper .projetos {
-        width: 100%;
-        border: none;
-        overflow: visible;
-    }
-
-    .projetos .descriçao {
         width: 100%;
         border: 1px solid rgb(20, 122, 156);
     }
 
-    .projetos .imagem {
-        width: 100%;
+    .projetos .descriçao {
+        border: 1px solid rgb(20, 122, 156);
     }
 
     .projetos .detalhes-projeto {
-        border: none;
+        border: 1px solid rgb(20, 122, 156);
     }
 }
 
@@ -447,11 +442,11 @@ a .circle {
 }
 
 .detalhes-imagem .images:hover,
-.detalhes-imagem #images-:hover {
+.detalhes-imagem .images-:hover {
     transform: scale(1.03);
 }
 
-.detalhes-imagem #images- {
+.detalhes-imagem .images- {
     height: 250px;
     max-width: 100%;
     max-height: 100%;

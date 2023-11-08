@@ -36,12 +36,16 @@ body {
     .banner h1 {
         font-size: 12px;
         padding: 0;
-        margin-right: 30px;
+        margin-right: 15px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
     }
 
     .menu a {
         font-size: 10px;
-        padding: 0;
         border: 1px solid rgb(0, 43, 83);
     }
 

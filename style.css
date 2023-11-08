@@ -45,6 +45,7 @@ body {
     }
 
     .menu li {
+        height: 100%;
         border: 1px solid rgb(0, 43, 83)
     }
 

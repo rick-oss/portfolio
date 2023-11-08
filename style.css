@@ -44,6 +44,10 @@ body {
         align-items: center;
     }
 
+    .menu li {
+        border: 1px solid rgb(0, 43, 83)
+    }
+
     .menu a {
         font-size: 10px;
         border: 1px solid rgb(0, 43, 83);

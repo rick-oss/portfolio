@@ -62,16 +62,15 @@ body {
     }
 
     .projetos .descriçao {
-        padding-left: 0 auto;
+        padding-left: -15px;
     }
 
     .btn .show-more {
-        width: 100px;
-        max-width: 50%;
+        width: 50%;
     }
 
     .btn .btn a {
-        max-width: 50%;
+        width: 50%;
     }
 
     .projetos .descriçao {

@@ -72,14 +72,6 @@ body {
     .btn .btn a {
         width: 50%;
     }
-
-    .projetos .descriçao {
-        border: 1px solid rgb(20, 122, 156);
-    }
-
-    .projetos .detalhes-projeto {
-        border: 1px solid rgb(20, 122, 156);
-    }
 }
 
 /* Estilizaçao do cabeçalho */

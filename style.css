@@ -61,6 +61,10 @@ body {
         width: 100%;
     }
 
+    .projetos .descriçao {
+        padding-left: 0 auto;
+    }
+
     .btn .show-more {
         width: 100px;
         max-width: 50%;

@@ -52,13 +52,22 @@ body {
     }
 
     .wrapper {
-        border: 1px solid rgb(20, 122, 156);
+        width: 100%;
+        height: 100%;
     }
 
     /* template projetos */
     .wrapper .projetos {
         width: 100%;
-        border: 1px solid rgb(20, 122, 156);
+    }
+
+    .btn .show-more {
+        width: 100px;
+        max-width: 50%;
+    }
+
+    .btn .btn a {
+        max-width: 50%;
     }
 
     .projetos .descriçao {
@@ -339,6 +348,7 @@ h1 .branco {
     max-width: 100%;
     text-align: left;
     margin-top: 30px;
+    border: 1px solid rgb(0, 43, 83);
 }
 
 /*

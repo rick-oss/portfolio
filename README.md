@@ -5,8 +5,8 @@ Esse repositório contém os arquivos e códigos fontes do meu site pessoal.
 Link de acesso: [portfólio](https://portfolio-sigma-seven-57.vercel.app)
 
 Tecnologias Usadas:
-  - Python
-  - HTML-CSS
+  - HTML
+  - CSS
   - Javascript
 
 ## Licença

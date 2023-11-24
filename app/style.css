@@ -500,6 +500,18 @@ a .circle {
     text-decoration: underline;
 }
 
+object p {
+    padding: 50px;
+}
+
+object a {
+    text-decoration: none;
+}
+
+object a:hover {
+    text-decoration: underline;
+}
+
 /* Estilizaçao do lightbox */
 #lightbox {
     /* Inicialmente o lightbox é escondido */

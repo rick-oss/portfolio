@@ -500,6 +500,22 @@ a .circle {
     text-decoration: underline;
 }
 
+/* Estilizaçao do texto para download do P */
+object p {
+    padding: 50px;
+    color: white;
+}
+
+/* Estilizaçao do link de download do PDF */
+object a {
+    text-decoration: none;
+    color: #1a75ff;
+}
+
+object a:hover {
+    text-decoration: underline;
+}
+
 /* Estilizaçao do lightbox */
 #lightbox {
     /* Inicialmente o lightbox é escondido */

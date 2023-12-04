@@ -2,7 +2,7 @@
 
 Esse repositório contém os arquivos e códigos fontes do meu site pessoal.
 
-Link de acesso: [portfólio](https://portfolio-sigma-seven-57.vercel.app)
+Link de acesso: [portfólio](https://portfolio-coral-psi-98.vercel.app/)
 
 Tecnologias Usadas:
   - HTML

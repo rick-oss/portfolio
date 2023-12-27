@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="../static/js/script.js"></script>
     <title>Projetos</title>
 </head>
 <body>
@@ -20,7 +20,7 @@
   <div class="wrapper">
     <div class="projetos">
       <div class="imagem">
-        <img src="../imagens/api.png" data-src="imagens/api.png" class="images" alt="preto"> 
+        <img src="../static/imagens/api.png" data-src="../static/imagens/api.png" class="images" alt="preto"> 
       </div>
       <div class="descriçao">
         <h2>Gerador de Conselhos</h2>
@@ -41,8 +41,8 @@
     <div class="detalhes-projeto">
       <div class="detalhes-1">
         <div class="detalhes-imagem">
-          <img src="../imagens/conselho-1.png" data-src="imagens/conselho-1.png" class="images-" alt="Login Form">
-          <img src="../imagens/conselho-2.png" data-src="imagens/conselho-2.png"  class="images-"  alt="Signup Form">
+          <img src="../static/imagens/conselho-1.png" data-src="../static/imagens/conselho-1.png" class="images images-" alt="Login Form">
+          <img src="../static/imagens/conselho-2.png" data-src="../static/imagens/conselho-2.png"  class="images images-"  alt="Signup Form">
         </div>
         <div class="texto-1">
           <p>
@@ -63,19 +63,25 @@
         </div>
       </div>
     </div>
+
     <div class="projetos">
       <div class="imagem">
-        <img src="../imagens/site.png" data-src="imagens/site.png" class="images" alt="preto"> 
+        <img src="../static/imagens/registro.png" data-src="../static/imagens/registro.png" class="images"> 
       </div>
       <div class="descriçao">
-        <h2>Primeiro Site</h2>
+        <h2>Formulários Registro/Login</h2>
         <p>
-          Meu primeiro site. Feito utilizando python, css e html.
-          <br>Também conta com um banco de dados em MySQL.
+          Formulários feitos em HTML e CSS.
+          Integrado com um banco de dados MySQL que armazena 
+          endereços de<br> email e senhas criptografadas com bcrypt para autenticaçao.<br>
         </p>
         <div class="btn">
-          <button class="show-more">Mostrar Mais ▼</button> 
-          <a href="https://github.com/rick-oss/advice-api" target="_blank">Ver código
+          <a href="https://formulario-alpha-six.vercel.app/index.html" target="_blank">Ver projeto
+            <div class="circle">
+              <div class="arrow">></div>
+            </div>
+          </a> 
+          <a href="https://github.com/rick-oss/formulario" target="_blank">Ver código
             <div class="circle">
               <div class="arrow">></div>
             </div>
@@ -83,28 +89,10 @@
         </div> 
       </div>                      
     </div>  
-    <div class="detalhes-projeto">
-      <div class="detalhes-2">
-        <div class="detalhes-imagem">
-          <img src="../imagens/login.png" data-src="imagens/login.png" class="images" alt="Login Form">
-          <img src="../imagens/registro.png" data-src="imagens/registro.png" class="images"  alt="Signup Form">
-        </div>
-        <div class="texto-2">
-          <p>
-            Contém formulários estilizados em CSS personalizado.
-            Integrado com um banco de dados MySQL que armazena 
-            nomes de usuário e senhas<br> para autenticaçao.<br>
-          </p>
-          <p> 
-            As senhas são armazenadas de forma segura, utilizando 
-            o algoritmo de criptografia, bcrypt.
-          </p> 
-        </div>
-      </div>
-    </div> 
+    
     <div class="projetos">
       <div class="imagem">
-        <img src="../imagens/backend.jpg" data-src="imagens/backend.jpg" class="images" alt="backend image"> 
+        <img src="../static/imagens/backend.jpg" data-src="../static/imagens/backend.jpg" class="images" alt="backend image"> 
       </div>
       <div class="descriçao">
         <h2>Gerador de Apostas</h2>

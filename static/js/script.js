@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Adiciona um evento de clique às miniaturas para abrir o lightbox
-    const thumbnails = document.querySelectorAll('.images');
+    const thumbnails = document.querySelectorAll('.image img');
 
     thumbnails.forEach(function (thumbnail) {
         thumbnail.addEventListener('click', function () {
@@ -52,11 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Código Typed:
-    var typed = new Typed(".multiple-text", {
+    var typed = new Typed(".typed-text", {
         strings: ["Desenvolver Web Frontend"],
         typeSpeed: 120,
         backSpeed: 100,
-        backDelay: 1000,  
+        backDelay: 1000,
     });
 
         

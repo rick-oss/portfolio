@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="header">
-    <a href="#" class="logo"><span class="azul">Portf</span><span class="branco">ólio</span></a>
+    <a href="#" class="logo"><span class="azul">&lt;Portf</span><span class="branco">ólio/&gt;</span></a>
     
     <nav class="navbar">
       <a href="#home" style="--i:1;" class="active">Home</a>
@@ -23,9 +23,9 @@
 
   <section id="home" class="home-container" >
     <div class="home-content">
-      <h3>Olá, Sou eu</h3>
+      <h3>Olá, Eu sou</h3>
       <h1>Erick Nunes</h1>
-      <h3>E eu sou <span class="multiple-text"></span></h3>
+      <h3>E sou <span class="typed-text"></span></h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ab autem repellat reiciendis ipsam perspiciatis.</p>
       <div class="links">
         <a href="https://github.com/rick-oss" style="--i:5;" target="_blank">
@@ -88,35 +88,39 @@
 
   <section id="skills" class="skills-container">
     <div class="skills-content">
-      <h2>Minhas Skills</h2>
+      <h2><span class="azul">&lt;TECNOL</span>OGIAS/&gt;</h2>
       <div class="items">
         <div class="icon-skill">
           <div class="icon"><i class='bx bxl-html5 icon-font' id="html"></i></div>
-          <p>Html5</p>
+          <p>HTML</p>
         </div>
         <div class="icon-skill">
           <div class="icon"><i class='bx bxl-css3 icon-font'></i></div>
-         <p>CSS3</p>
+         <p>CSS</p>
         </div>
         <div class="icon-skill">
           <div class="icon"><i class='bx bxl-javascript icon-font'></i></div>
-          <p>Javascript</p>
+          <p>JAVASCRIPT</p>
          </div>
         <div class="icon-skill">
          <div class="icon"><i class='bx bxl-vuejs icon-font'></i></div>
-         <p>Vue.js</p>
+         <p>VUE.JS</p>
         </div>
         <div class="icon-skill">
           <div class="icon"><i class='bx bxl-git icon-font'></i></div>
-          <p>Git</p>
+          <p>GIT</p>
+        </div>
+        <div class="icon-skill">
+          <div class="icon"><i class='bx bxl-nodejs icon-font'></i></div>
+          <p>NODE.JS</p>
         </div>
         <div class="icon-skill">
           <div class="icon"><i class='bx bxl-python icon-font'></i></div>
-          <p>Python</p>
+          <p>PYTHON</p>
         </div>
         <div class="icon-skill">
           <div class="icon"><i class='bx bxl-flask icon-font'></i></div>
-          <p>Flask</p>
+          <p>FLASK</p>
         </div>
       </div>
     </div>
@@ -125,15 +129,18 @@
   <section id="projects" class="projects-container">
     <div class="project">
       <div class="image">
-        <img src="../static/imagens/api.png" data-src="../static/imagens/api.png" class="images" alt="preto"> 
+        <img src="../static/imagens/api.png" data-src="../static/imagens/api.png" alt="preto"> 
       </div>
       <div class="description">
         <h2>Gerador de Conselhos</h2>
-        <p>
-          Um gerador de conselhos com a API Adviceslip.
-          <br>Feito usando python, javascript, css e html.
-        </p>
-        <div class="btn">
+        <p>Um gerador de conselhos com a API Adviceslip.</p>
+        <div class="tec-projects">
+          <div class="icon"><i class='bx bxl-python icon-project'></i></div>
+          <div class="icon"><i class='bx bxl-javascript icon-project'></i></div>
+          <div class="icon"><i class='bx bxl-html5 icon-project' id="html"></i></div>
+          <div class="icon"><i class='bx bxl-css3 icon-project'></i></div>
+        </div>
+        <div class="btn-project">
           <button class="show-more">Mostrar Mais ▼</button> 
           <a href="https://github.com/rick-oss/advice-api" target="_blank">Ver código
             <div class="circle">
@@ -141,8 +148,8 @@
             </div>
           </a>           
         </div> 
-      </div>                      
-    </div>  
+      </div>                  
+    </div> 
     <div class="details-project">
       <div class="details-1">
         <div class="details-image">
@@ -167,11 +174,11 @@
           </p> 
         </div>
       </div>
-    </div>
-
+    </div>     
+   
     <div class="project">
       <div class="image">
-        <img src="../static/imagens/tradutor.png" data-src="../static/imagens/tradutor.png" class="images" alt="preto"> 
+        <img src="../static/imagens/tradutor.png" data-src="../static/imagens/tradutor.png"  alt="preto"> 
       </div>
       <div class="description">
         <h2>Tradutor</h2>
@@ -179,7 +186,7 @@
           Um Tradutor feito com o modulo deep_translator do python.
           <br>Estilizado com css, html e javascript.
         </p>
-        <div class="btn">
+        <div class="btn-project">
           <button class="show-more">Mostrar Mais ▼</button> 
           <a href="https://github.com/rick-oss/tradutor-python" target="_blank">Ver código
             <div class="circle">
@@ -187,8 +194,8 @@
             </div>
           </a>           
         </div> 
-      </div>                      
-    </div>  
+      </div>                        
+    </div> 
     <div class="details-project">
       <div class="details-1">
         <div class="details-image">
@@ -196,11 +203,11 @@
           <img src="../static/imagens/tradutor-2.png" data-src="../static/imagens/tradutor-2.png"  class="images images-"  alt="Signup Form">
         </div>
       </div>
-    </div>
+    </div> 
 
     <div class="project">
       <div class="image">
-        <img src="../static/imagens/registro.png" data-src="../static/imagens/registro.png" class="images"> 
+        <img src="../static/imagens/registro.png" data-src="../static/imagens/registro.png"> 
       </div>
       <div class="description">
         <h2>Formulários Registro/Login</h2>
@@ -209,7 +216,7 @@
           Integrado com um banco de dados MySQL que armazena 
           endereços de<br> email e senhas criptografadas com bcrypt para autenticaçao.<br>
         </p>
-        <div class="btn">
+        <div class="btn-project">
           <a href="https://formulario-alpha-six.vercel.app/index.html" target="_blank">Ver projeto
             <div class="circle">
               <div class="arrow">></div>
@@ -226,7 +233,7 @@
     
     <div class="project">
       <div class="image">
-        <img src="../static/imagens/backend.jpg" data-src="../static/imagens/backend.jpg" class="images" alt="backend image"> 
+        <img src="../static/imagens/backend.jpg" data-src="../static/imagens/backend.jpg" alt="backend image"> 
       </div>
       <div class="description">
         <h2>Gerador de Apostas</h2>
@@ -234,7 +241,7 @@
           Um gerador de apostas feito com python.
           <br>O código conta com 3 soluçoes diferentes.
         </p>
-        <div class="btn">
+        <div class="btn-project">
           <a href="https://github.com/rick-oss/gerador-de-apostas/blob/main/gerador.py" target="_blank">Ver código
             <div class="circle">
               <div class="arrow">></div>

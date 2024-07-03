@@ -325,35 +325,33 @@ body {
     }
 }
 
-
-
-/* Estilizaçao do conteiner principal */
-.about-container {
-    display: flex;
-    max-width: 100%;
-    align-items: center;
-    padding: 10px;
-}
-
 /* Estilizaçao do container de habilidades */
-.skills-container {
+.skills-container,
+.about-container {
     position: relative;
     display: flex;
     width: 100%;
     height: 75vh;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
 }
 
-.skills-content {
+.skills-content,
+.about-content {
     max-width: 780px;
     text-align: center;
 }
 
-.skills-content h2 {
+.skills-content h2,
+.about-content h2 {
     border-bottom: 1px solid #0ef;
 }
 
+.about-content .text {
+    padding: 15px;
+    border-bottom: 1px solid #0ef;
+}
 
 .skills-content .items {
     display: flex;
@@ -385,19 +383,6 @@ body {
 .icon .icon-font {
     font-size: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Estilizaçao das imagens da pagina */
 .about-container .infos {
@@ -496,7 +481,18 @@ body {
     text-indent: 20px;
 }
 
-.projects-container {
+.projects-container .borda {
+    margin: 0 auto;
+    max-width: 75%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.borda h2 {
+    border-bottom: 1px solid #0ef;
+}
+
+.projects-content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -504,12 +500,12 @@ body {
 }
 
 /* Estilizaçao de layout dos projetos */
-.projects-container .project {
-    display: flex;  
-    width: 70%; 
-    height: 270px;  
+.projects-content .project {
+    display: flex;
+    width: 70%;
+    height: 270px;
     align-items: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
     border: 1px solid #0ef;
 }
@@ -544,7 +540,6 @@ body {
 }
 
 .description h2 {
-    max-width: 100%;
     text-align: left;
 }
 
@@ -553,6 +548,15 @@ body {
     text-align: left;
     padding: 10px 20px;
     margin-top: 10px;
+}
+
+.description p a {
+    text-decoration: none;
+    color: #0ef;
+}
+
+.description p a:hover {
+    text-decoration: underline;
 }
 
 .tec-projects .icon {
@@ -622,7 +626,7 @@ a .circle {
     border-radius: 20px;
     color: #1f242d;
     padding: 10px 20px;
-    background: #0ef;  
+    background: #0ef;
     box-shadow: 0 0 10px #0ef;
     text-decoration: none;
     font-weight: 600;
@@ -649,48 +653,39 @@ a .circle {
     scrollbar-width: none;
 }
 
-.details-project .details-1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.details-project .details-2 {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 /* Estilizaçao das imagens de demonstraçao */
 .details-project .details-image {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
+    justify-content: space-around;
 }
 
 .details-image .images {
-    max-width: 100%;
-    height: 250px;
-    border: 1px solid rgb(4, 87, 165);
+    height: 360px;
+    width: 360px;
+    border: 1px solid #0ef;
     border-radius: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     cursor: pointer;
     overflow: hidden;
 }
 
-.details-image .images:hover,
-.details-image .images-:hover {
+.details-image .landscape-image {
+    width: 800px;
+    height: 480px;
+    border: 1px solid #0ef;
+    border-radius: 15px;
+
+}
+
+.details-image .images:hover {
     transform: scale(1.03);
 }
 
-.details-image .images- {
-    height: 250px;
-    width: 390px;
-    max-width: 100%;
-    max-height: 100%;
-    border: 1px solid rgb(4, 87, 165);
-    border-radius: 15px;
-    margin-left: 45px;
-    margin-top: 3px;
-    margin-bottom: 5px;
-    cursor: pointer;
+.details-1 {
+    width: 100%;
 }
 
 /* Estilizaçao dos layout dos textos */
@@ -700,7 +695,7 @@ a .circle {
     text-align: left;
     font-size: 17px;
     text-indent: 30px;
-    border-top: 1px solid rgb(0, 43, 83);
+    border-top: 1px solid gray;
 }
 
 .text-1 a {

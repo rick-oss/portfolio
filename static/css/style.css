@@ -17,62 +17,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Estilizaçao para suporte mobile */
-@media (max-width: 768px) {
-
-    /* template pagina inicial */
-    body {
-        overflow: hidden;
-        overflow-y: auto;
-    }
-
-    .conteiner {
-        flex-direction: column;
-    }
-
-    .conteiner .sobre {
-        margin-right: 30px;
-        margin-top: 20px;
-    }
-
-    .banner h1 {
-        font-size: 12px;
-        padding: 0;
-        margin-right: 15px;
-    }
-
-    .menu {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .menu a {
-        font-size: 12px;
-    }
-
-    .wrapper {
-        width: 100%;
-        height: 100%;
-    }
-
-    /* template projetos */
-    .wrapper .projetos {
-        width: 100%;
-    }
-
-    .projetos .descriçao {
-        padding-left: -15px;
-    }
-
-    .btn .show-more {
-        width: 50%;
-    }
-
-    .btn .btn a {
-        width: 50%;
-    }
-}
 
 /* Estilizaçao do cabeçalho */
 .header {
@@ -148,7 +92,8 @@ body {
 .home-container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+    min-height: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,6 +102,7 @@ body {
 
 .home-content {
     width: 600px;
+    max-height: 100%;
 }
 
 .home-content h3 {
@@ -168,7 +114,7 @@ body {
 }
 
 .home-content h3:nth-of-type(2) {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     animation: slideRight 1s ease forwards;
     animation-delay: .5s;
 
@@ -187,13 +133,9 @@ body {
     animation-delay: .5s;
 }
 
-.home-content p {
-    font-size: 16px;
-}
-
 .home-img img {
     max-width: 450px;
-    max-height: 500px;
+    max-height: 450px;
     margin-right: -20px;
     border: 1px solid #0ef;
     border-radius: 15px;
@@ -326,169 +268,84 @@ body {
 }
 
 /* Estilizaçao do container de habilidades */
-.skills-container,
-.about-container {
+.about-container,
+.skills-container {
     position: relative;
     display: flex;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 .skills-content,
 .about-content {
-    max-width: 780px;
+    max-width: 900px;
+    max-height: 100%;
     text-align: center;
 }
 
 .skills-content h2,
 .about-content h2 {
+    font-size: 40px;
     border-bottom: 1px solid #0ef;
 }
 
 .about-content .text {
-    padding: 15px;
+    padding: 20px;
+    font-size: 18px;
     border-bottom: 1px solid #0ef;
+}
+
+.text p {
+    text-indent: 30px;
 }
 
 .skills-content .items {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 5px;
+    justify-content: center;
     border-bottom: 1px solid #0ef;
 }
 
 .items .icon-skill {
-    padding: 25px 30px;
-}
-
-.icon-skill .icon {
-    display: inline-flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
     justify-content: center;
     align-items: center;
     color: #0ef;
 }
 
+.icon-skill .icon {
+    padding: 10px;
+}
+
 .icon-skill p {
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
-    margin-top: 10px;
+
 }
 
 .icon .icon-font {
-    font-size: 100px;
+    font-size: 130px;
 }
 
-/* Estilizaçao das imagens da pagina */
-.about-container .infos {
-    max-width: 100%;
-    margin-top: 10px;
-    text-align: center;
-    color: white;
-    background-color: #000a18;
-    border: 1px solid rgb(4, 87, 165);
-    border-radius: 15px;
-}
-
-.infos .img-social {
-    width: 85%;
-    height: 300px;
-    margin-left: 0;
-    margin: 10px;
-    border: 1px solid rgb(4, 87, 165);
-    border-radius: 15px;
-}
-
-.infos .img-social:hover {
-    border-color: rgb(20, 122, 156);
-    transform: scale(1.03);
-}
-
-/* Estilizaçao dos titulos */
-.infos .skills,
-.infos .contato {
-    max-width: 100%;
-    text-align: center;
-    padding-right: 2px;
-    margin: 5px;
-}
-
-.infos .items {
-    display: flex;
-    /*organiza os items um ao lado do outro*/
-    flex-wrap: wrap;
-    max-width: 100%;
-    text-align: center;
-}
-
-/* Estilizaçao dos links de contato */
-.infos .links {
-    max-width: 100%;
-    text-align: center;
-}
-
-.infos .imagens {
-    margin: 3.5px;
-}
-
-/* Estilizaçao das imagens utilizadas na apresentaçao de habilidades*/
-.imagens .img-skill {
-    width: 35px;
-    height: 35px;
-    margin: 10px;
-}
-
-.imagens p {
-    font-size: 10px;
-    margin: 10px;
-}
-
-/* Estilizaçao dos blocos de texto da pagina */
-.about-container .about {
-    display: block;
-    width: 100%;
-    height: 90%;
-    margin-left: 30px;
-    color: white;
-    border-radius: 15px;
-    border: 1px solid rgb(4, 87, 165);
-    background-color: #000a18;
-    padding: 15px;
-    overflow: hidden;
-    overflow-y: auto;
-}
-
-.about .title {
-    width: 100%;
-    text-align: left;
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.about .text {
-    display: block;
-    width: 100%;
-}
-
-.text p {
-    text-indent: 20px;
+.projects-container {
+    padding-top: 50px;
 }
 
 .projects-container .borda {
     margin: 0 auto;
-    max-width: 75%;
+    width: 1024px;
+    max-width: 100%;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .borda h2 {
+    font-size: 40px;
     border-bottom: 1px solid #0ef;
 }
 
@@ -502,7 +359,8 @@ body {
 /* Estilizaçao de layout dos projetos */
 .projects-content .project {
     display: flex;
-    width: 70%;
+    width: 950px;
+    max-width: 100%;
     height: 270px;
     align-items: center;
     margin-bottom: 30px;
@@ -761,4 +619,173 @@ object a:hover {
     margin: auto;
     max-height: 80%;
     max-width: 80%;
+}
+
+/* Estilizaçao para telas menores */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 15px;
+
+    }
+
+    .navbar a {
+        font-size: 15px;
+        margin-left: 10px;
+
+    }
+
+    .home-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 5% 0;
+    }
+
+    .home-content {
+        margin-top: 42px;
+        text-align: center;
+    }
+
+    .home-content h3 {
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .home-content h3:nth-of-type(2) {
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+    }
+
+    .home-content h1 {
+        font-size: 30px;
+        letter-spacing: 12px;
+    }
+
+    .home-img img {
+        max-width: 280px;
+        max-height: 280px;
+    }
+
+    .links a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .about-container,
+    .skills-container {
+        padding-top: 50px;
+    }
+
+    .skills-content h2,
+    .about-content h2 {
+        font-size: 30px;
+    }
+
+    .about-content .text {
+        padding: 20px;
+        font-size: 17px;
+        border-bottom: 1px solid #0ef;
+    }
+
+    .items .icon-skill {
+        width: 180px;
+        color: #0ef;
+    }
+
+    .icon-skill .icon {
+        padding: 0;
+    }
+
+    .icon-skill p {
+        color: white;
+        font-size: 10px;
+        font-weight: 600;
+
+    }
+
+    .icon .icon-font {
+        font-size: 115px;
+    }
+
+    .borda h2 {
+        font-size: 30px;
+    }
+
+    .project .description {
+        padding: 20px 0 10px 5px;
+    }
+
+    .description h2 {
+        font-size: 17px;
+    }
+
+    .description p {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .tec-projects .icon {
+        font-size: 30px;
+        margin: 10px 0 0px 10px;
+    }
+
+    .description .btn-project {
+        margin-top: 20px;
+    }
+
+    .btn-project a {
+        font-size: 14px;
+        margin-left: 10px;
+        color: #0ef;
+    }
+
+    .btn-project a:hover {
+        font-weight: 600;
+
+    }
+
+    a .circle {
+        width: 18px;
+        height: 18px;
+        margin-left: 5px;
+        border: 1px solid #0ef;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: right;
+    }
+
+    .circle .arrow {
+        font-size: 13px;
+        color: #0ef;
+    }
+
+
+    .btn-project .show-more {
+        font-size: 12px;
+        padding: 10px 5px;
+        margin-left: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }

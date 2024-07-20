@@ -341,7 +341,6 @@ body {
     width: 1024px;
     max-width: 100%;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .borda h2 {
@@ -362,8 +361,8 @@ body {
     width: 950px;
     max-width: 100%;
     height: 270px;
+    margin-top: 35px;
     align-items: center;
-    margin-bottom: 30px;
     flex-wrap: wrap;
     border: 1px solid #0ef;
 }
@@ -525,7 +524,6 @@ a .circle {
     width: 360px;
     border: 1px solid #0ef;
     border-radius: 15px;
-    margin-bottom: 30px;
     cursor: pointer;
     overflow: hidden;
 }
@@ -615,7 +613,7 @@ object a:hover {
 /* Estilizaçao da imagem em tamanho real */
 #lightboxImagem {
     display: block;
-    padding-top: 20px;
+    padding-top: 50px;
     margin: auto;
     max-height: 80%;
     max-width: 80%;
@@ -629,13 +627,11 @@ object a:hover {
 
     .logo {
         font-size: 15px;
-
     }
 
     .navbar a {
         font-size: 15px;
         margin-left: 10px;
-
     }
 
     .home-container {
@@ -693,13 +689,12 @@ object a:hover {
     }
 
     .about-content .text {
-        padding: 20px;
         font-size: 17px;
         border-bottom: 1px solid #0ef;
     }
 
     .items .icon-skill {
-        width: 180px;
+        width: 200px;
         color: #0ef;
     }
 
@@ -708,10 +703,7 @@ object a:hover {
     }
 
     .icon-skill p {
-        color: white;
         font-size: 10px;
-        font-weight: 600;
-
     }
 
     .icon .icon-font {
@@ -723,6 +715,10 @@ object a:hover {
     }
 
     .project .description {
+        padding: 35px 0 10px 5px;
+    }
+
+    .project #description-id {
         padding: 20px 0 10px 5px;
     }
 
@@ -731,7 +727,7 @@ object a:hover {
     }
 
     .description p {
-        padding: 5px 15px;
+        padding: 5px 10px;
         font-size: 15px;
     }
 
@@ -740,25 +736,19 @@ object a:hover {
         margin: 10px 0 0px 10px;
     }
 
-    .description .btn-project {
-        margin-top: 20px;
+    #description-id .btn-project {
+        margin-top: 5px;
     }
 
     .btn-project a {
-        font-size: 14px;
         margin-left: 10px;
+        font-size: 13px;
         color: #0ef;
     }
 
-    .btn-project a:hover {
-        font-weight: 600;
-
-    }
-
     a .circle {
-        width: 18px;
-        height: 18px;
-        margin-left: 5px;
+        width: 15px;
+        height: 17px;
         border: 1px solid #0ef;
         border-radius: 50%;
         display: flex;
@@ -771,21 +761,33 @@ object a:hover {
         color: #0ef;
     }
 
-
     .btn-project .show-more {
         font-size: 12px;
-        padding: 10px 5px;
+        padding: 10px 10px;
         margin-left: 5px;
     }
 
+    .projects-container .details-project {
+        width: 100%;
+    }
 
+    .details-project .details-image {
+        padding: 0;
+        padding-top: 30px;
+    }
 
+    .details-1 .images {
+        max-width: 300px;
+        max-height: 330px;
+        margin-bottom: 30px;
+    }
 
+    .details-1 .text-1 {
+        font-size: 16px;
+    }
 
-
-
-
-
-
-
+    #lightboxImagem {
+        display: grid;
+        place-items: center;
+    }
 }

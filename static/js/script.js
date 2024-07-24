@@ -59,20 +59,41 @@ document.addEventListener("DOMContentLoaded", function () {
         backDelay: 1000,
     });
 
-        
+
     // recupera todas os links no navbar
-    const links = document.querySelectorAll('.navbar a'); 
+    const navlinks = document.querySelectorAll('.navbar a');
+    const sections = document.querySelectorAll('section');
+    let isScrollingByLink = false
 
     // percorre todas os links e adicionar um evento de clique a cada um
-    links.forEach(link => {
-        link.addEventListener('click', function() {
+    navlinks.forEach(link => {
+        link.addEventListener('click', function () {
             // remove a classe active de todos os links
-            links.forEach(item => item.classList.remove('active'))
+            navlinks.forEach(item => item.classList.remove('active'))
 
             // Adiciona a classe active ao link clicado
-            this.classList.add('active')          
+            this.classList.add('active')
+
+            isScrollingByLink = true;
+            setTimeout(() => {
+                isScrollingByLink = false
+                console.log(`${isScrollingByLink}`)
+            }, 1000);
         })
     })
+
+
+    // Código de automatizaçao de active menu de navegaçao:
+    function changeActiveLink() {
+        if (isScrollingByLink) return; // Se a flag for true, interrompe a função
+        let index = sections.length;
+
+        while (--index && window.scrollY + 100 < sections[index].offsetTop) { }
+
+        navlinks.forEach((link) => link.classList.remove('active'));
+        navlinks[index].classList.add('active');
+    }
+
+    changeActiveLink();
+    window.addEventListener('scroll', changeActiveLink);
 });
-
-

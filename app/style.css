@@ -17,7 +17,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
 /* Estilizaçao do cabeçalho */
 .header {
     display: flex;
@@ -57,7 +56,6 @@ body {
     font-size: 18px;
     color: white;
     text-decoration: none;
-    color: white;
     font-weight: 500;
     margin-left: 35px;
     position: relative;
@@ -102,6 +100,7 @@ body {
 
 .home-content {
     width: 600px;
+    color: white;
     max-height: 100%;
 }
 
@@ -275,6 +274,7 @@ body {
     width: 100%;
     height: 90vh;
     min-height: 600px;
+    color: white;
     justify-content: center;
     align-items: center;
 }
@@ -322,7 +322,6 @@ body {
 }
 
 .icon-skill p {
-    color: white;
     font-size: 13px;
     font-weight: 600;
 
@@ -334,6 +333,7 @@ body {
 
 .projects-container {
     padding-top: 100px;
+    color: white;
 }
 
 .projects-container .borda {
@@ -626,11 +626,11 @@ object a:hover {
     }
 
     .logo {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .navbar a {
-        font-size: 15px;
+        font-size: 13px;
         margin-left: 10px;
     }
 
@@ -689,12 +689,12 @@ object a:hover {
     }
 
     .about-content .text {
-        font-size: 17px;
+        font-size: 15px;
         border-bottom: 1px solid #0ef;
     }
 
     .items .icon-skill {
-        width: 200px;
+        width: 180px;
         color: #0ef;
     }
 
@@ -704,10 +704,11 @@ object a:hover {
 
     .icon-skill p {
         font-size: 10px;
+        color: white;
     }
 
     .icon .icon-font {
-        font-size: 115px;
+        font-size: 110px;
     }
 
     .borda h2 {
@@ -723,16 +724,16 @@ object a:hover {
     }
 
     .description h2 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .description p {
         padding: 5px 10px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .tec-projects .icon {
-        font-size: 30px;
+        font-size: 25px;
         margin: 10px 0 0px 10px;
     }
 
@@ -762,8 +763,8 @@ object a:hover {
     }
 
     .btn-project .show-more {
-        font-size: 12px;
-        padding: 10px 10px;
+        font-size: 11px;
+        padding: 6px 6px;
         margin-left: 5px;
     }
 

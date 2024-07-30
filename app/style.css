@@ -322,9 +322,8 @@ body {
 }
 
 .icon-skill p {
-    font-size: 13px;
-    font-weight: 600;
-
+    font-size: 15px;
+    color: white;
 }
 
 .icon .icon-font {
@@ -626,11 +625,11 @@ object a:hover {
     }
 
     .logo {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .navbar a {
-        font-size: 13px;
+        font-size: 14px;
         margin-left: 10px;
     }
 
@@ -689,7 +688,7 @@ object a:hover {
     }
 
     .about-content .text {
-        font-size: 15px;
+        font-size: 16px;
         border-bottom: 1px solid #0ef;
     }
 
@@ -708,7 +707,7 @@ object a:hover {
     }
 
     .icon .icon-font {
-        font-size: 110px;
+        font-size: 115px;
     }
 
     .borda h2 {
@@ -724,16 +723,16 @@ object a:hover {
     }
 
     .description h2 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .description p {
         padding: 5px 10px;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .tec-projects .icon {
-        font-size: 25px;
+        font-size: 30px;
         margin: 10px 0 0px 10px;
     }
 
@@ -743,7 +742,7 @@ object a:hover {
 
     .btn-project a {
         margin-left: 10px;
-        font-size: 13px;
+        font-size: 14px;
         color: #0ef;
     }
 
@@ -763,7 +762,7 @@ object a:hover {
     }
 
     .btn-project .show-more {
-        font-size: 11px;
+        font-size: 12px;
         padding: 6px 6px;
         margin-left: 5px;
     }

@@ -1,0 +1,17 @@
+.about_content {
+  max-width: 750px;
+  max-height: 100%;
+  text-align: center;
+}
+
+.about_content h1 {
+  font-size: 2em;
+}
+
+.about_content .text {
+  padding: 20px 0 35px 0;
+  font-size: 17px;
+}
+.text p {
+  line-height: 1.6;
+}

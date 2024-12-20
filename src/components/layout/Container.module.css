@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 10% 0;
+}
+
+span {
+  color: #0ef;
+}
+
+/* custom classes */
+.justify_between {
+  justify-content: space-between;
+}

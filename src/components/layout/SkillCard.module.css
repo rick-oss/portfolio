@@ -8,6 +8,7 @@
   margin: 20px 20px 0 20px;
   border-bottom: 3.5px solid #0ef;
   border-radius: 0 20px 0 0;
+  transition: transform 0.3s ease;
 }
 
 .block:hover {

@@ -12,7 +12,7 @@ const SkillCard = ({ skillIcon, skillName }) => {
 };
 
 SkillCard.propTypes = {
-  skillIcon: PropTypes.string.isRequired,
+  skillIcon: PropTypes.object.isRequired,
   skillName: PropTypes.string.isRequired,
 };
 

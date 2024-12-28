@@ -3,10 +3,10 @@
   place-items: center;
   width: 130px;
   height: 120px;
-  color: #0ef;
-  background: #171a20;
+  color: #3fa9f5;
+  background-color: #0d1117;
   margin: 20px 20px 0 20px;
-  border-bottom: 3.5px solid #0ef;
+  border-bottom: 3.5px solid #3fa9f5;
   border-radius: 0 20px 0 0;
   transition: transform 0.3s ease;
 }

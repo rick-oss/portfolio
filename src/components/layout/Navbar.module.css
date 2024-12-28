@@ -1,5 +1,5 @@
 .navbar {
-  display: flex;
+  display: inline-flex;
   width: 100%;
   position: fixed;
   top: 0;
@@ -38,7 +38,7 @@
 }
 
 .navbar .links:hover {
-  color: #0ef;
+  color: #3fa9f5;
 }
 
 .navbar .links::before {
@@ -48,7 +48,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #0ef;
+  background-color: #3fa9f5;
   transform: scaleX(0);
   transform-origin: bottom;
   transition: transform 0.3s ease;

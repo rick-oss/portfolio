@@ -5,11 +5,11 @@
   color: white;
   justify-content: center;
   align-items: center;
-  padding: 4em 10% 0;
+  padding: 4em 10% 2.5em;
 }
 
 span {
-  color: #0ef;
+  color: #3fa9f5;
 }
 
 /* custom classes */

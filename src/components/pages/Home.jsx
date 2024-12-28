@@ -50,7 +50,7 @@ function Home() {
         </a>
       </div>
 
-      <img src={eu} alt="Eu menó" />
+      <img src={eu} alt="Eu menó" className={styles.image} />
     </Container>
   );
 }

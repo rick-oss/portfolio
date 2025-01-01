@@ -12,6 +12,8 @@
   font-size: 3.2em;
   font-weight: 700;
   margin: -3px 0;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
 }
 
 .links a {
@@ -59,4 +61,16 @@
   max-height: 450px;
   border: 1px solid #3fa9f5;
   border-radius: 15px;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

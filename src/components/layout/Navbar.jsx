@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-// import { useState, useEffect } from "react";
 
 import styles from "./Navbar.module.css";
 
@@ -12,22 +11,54 @@ function Navbar() {
       </h1>
       <ul>
         <li>
-          <Link to="home" smooth={true} className={styles.links}>
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className={styles.links}
+            activeClass={styles.active}
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} className={styles.links}>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className={styles.links}
+            activeClass={styles.active}
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} className={styles.links}>
+          <Link
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className={styles.links}
+            activeClass={styles.active}
+          >
             Skills
           </Link>
         </li>
         <li>
-          <Link to="projects" smooth={true} className={styles.links}>
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className={styles.links}
+            activeClass={styles.active}
+          >
             Projects
           </Link>
         </li>

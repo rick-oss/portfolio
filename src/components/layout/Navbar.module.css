@@ -30,18 +30,18 @@
   color: white;
 }
 
-.navbar .links {
+.links {
   font-size: 1.2em;
   text-decoration: none;
   position: relative;
   cursor: pointer;
 }
 
-.navbar .links:hover {
+.links:hover {
   color: #3fa9f5;
 }
 
-.navbar .links::before {
+.links::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -51,10 +51,14 @@
   background-color: #3fa9f5;
   transform: scaleX(0);
   transform-origin: bottom;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
 }
 
-.navbar .links:hover::before {
+.links:hover::before {
   transform: scaleX(1.05);
   transform-origin: bottom;
+}
+
+.active {
+  color: #3fa9f5;
 }

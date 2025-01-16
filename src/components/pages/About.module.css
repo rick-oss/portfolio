@@ -3,12 +3,8 @@
   text-align: center;
 }
 
-.about_content h1 {
-  font-size: 2em;
-}
-
 .about_content .text {
-  padding: 20px 0 35px 0;
+  padding: 20px 0 20px;
   font-size: 17px;
 }
 .text p {

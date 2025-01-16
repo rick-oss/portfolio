@@ -1,8 +1,15 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
 import styles from "./Navbar.module.css";
 
 function Navbar() {
+  const [activeSection, setActiveSection] = useState("home");
+
+  useEffect(() => {
+    setActiveSection("home");
+  }, []);
+
   return (
     <nav className={styles.navbar}>
       <h1 className={styles.logo}>
@@ -15,10 +22,9 @@ function Navbar() {
             to="home"
             spy={true}
             smooth={true}
-            offset={-50}
             duration={500}
-            className={styles.links}
-            activeClass={styles.active}
+            className={`${styles.links} ${activeSection === "home" ? styles.active : ""}`}
+            onSetActive={() => setActiveSection("home")}
           >
             Home
           </Link>
@@ -28,10 +34,9 @@ function Navbar() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-50}
             duration={500}
-            className={styles.links}
-            activeClass={styles.active}
+            className={`${styles.links} ${activeSection === "about" ? styles.active : ""}`}
+            onSetActive={() => setActiveSection("about")}
           >
             About
           </Link>
@@ -41,10 +46,9 @@ function Navbar() {
             to="skills"
             spy={true}
             smooth={true}
-            offset={-50}
             duration={500}
-            className={styles.links}
-            activeClass={styles.active}
+            className={`${styles.links} ${activeSection === "skills" ? styles.active : ""}`}
+            onSetActive={() => setActiveSection("skills")}
           >
             Skills
           </Link>
@@ -54,10 +58,9 @@ function Navbar() {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-50}
             duration={500}
-            className={styles.links}
-            activeClass={styles.active}
+            className={`${styles.links} ${activeSection === "projects" ? styles.active : ""}`}
+            onSetActive={() => setActiveSection("projects")}
           >
             Projects
           </Link>

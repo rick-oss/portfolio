@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 
 import Modal from "./Modal";
-//import projectsData from "../../data/projectsData.jsx";
 import styles from "./ProjectCard.module.css";
 
 function ProjectCard({ project }) {

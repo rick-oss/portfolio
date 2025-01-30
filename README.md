@@ -1,8 +1,14 @@
-# React + Vite
+## Meu porfólio de desenvolvedor web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    Esse repositório contém os arquivos e códigos fontes do meu site pessoal.
 
-Currently, two official plugins are available:
+## Tecnologias Usadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    - React.js
+    - HTML
+    - CSS
+    - Javascript
+
+## Licença
+
+    Este projeto é licenciado sob os termos de licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.

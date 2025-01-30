@@ -3,9 +3,8 @@ import ReactDom from "react-dom";
 import { FaX } from "react-icons/fa6";
 
 import styles from "./Modal.module.css";
-// import imagem from "./../../assets/conselho.png";
 
-function Modal({ isOpen, onClose, title, description, image, date, links }) {
+function Modal({ isOpen, onClose, title, description, videoSrc, videoFit, date, links }) {
   if (!isOpen) return null;
 
   return ReactDom.createPortal(
@@ -14,7 +13,7 @@ function Modal({ isOpen, onClose, title, description, image, date, links }) {
         <div className={styles.main_content}>
           <div className={styles.video_wrapper}>
             {/*video*/}
-            <img src={image} />
+            <video src={videoSrc} controls autoPlay loop className={`${styles.video} ${styles[videoFit]}`} />
           </div>
           <div className={styles.project_details}>
             <div className={styles.title_wrapper}>
@@ -23,7 +22,7 @@ function Modal({ isOpen, onClose, title, description, image, date, links }) {
                 <FaX className={styles.icon_button} />
               </button>
             </div>
-            <p className={styles.text}>{description}</p>
+            <div className={styles.description}>{description}</div>
             <p className={styles.date}>{date}</p>
           </div>
         </div>
@@ -46,7 +45,8 @@ Modal.propTypes = {
   onClose: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.object.isRequired,
-  image: PropTypes.string.isRequired,
+  videoSrc: PropTypes.string.isRequired,
+  videoFit: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   links: PropTypes.string.isRequired,
 };

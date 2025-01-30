@@ -30,14 +30,25 @@
 }
 
 .video_wrapper {
+  position: relative;
   width: 50%;
-  text-align: center;
+  height: 325px;
 }
 
-.video_wrapper img {
-  display: block;
+.video_wrapper .video {
+  position: absolute;
   width: 100%;
-  height: 320px;
+  height: 100%;
+}
+
+/*custom class*/
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+  background: black;
 }
 
 .project_details {
@@ -77,18 +88,24 @@
   vertical-align: middle;
 }
 
-.project_details .text {
+.project_details .description {
   margin: 40px 0 0 0;
   line-height: 1.6;
+  max-height: 180px;
+  overflow-x: hidden;
   color: #999;
 }
 
-.text a {
+.description p {
+  margin-right: 5px;
+}
+
+.description a {
   color: #3fa9f5;
   text-decoration: none;
 }
 
-.text a:hover {
+.description a:hover {
   text-decoration: underline;
 }
 

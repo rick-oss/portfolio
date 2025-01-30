@@ -11,4 +11,4 @@
 
 ## Licença
 
-    Este projeto é licenciado sob os termos de licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto é licenciado sob os termos de licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.

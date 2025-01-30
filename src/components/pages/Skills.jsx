@@ -16,7 +16,7 @@ function Skills() {
           <div className={styles.items}>
             <SkillCard skillIcon={<FaHtml5 />} skillName="HTML5" />
             <SkillCard skillIcon={<FaCss3Alt />} skillName="CSS3" />
-            <SkillCard skillIcon={<FaJs />} skillName="javaScript" />
+            <SkillCard skillIcon={<FaJs />} skillName="JavaScript" />
             <SkillCard skillIcon={<FaReact />} skillName="React" />
             <SkillCard skillIcon={<FaGitAlt />} skillName="Git" />
             <SkillCard skillIcon={<FaPython />} skillName="Python" />

@@ -33,3 +33,10 @@ body,
     scrollbar-width: thin;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  body,
+  #root {
+    background-color: #f4f4f4;
+  }
+}

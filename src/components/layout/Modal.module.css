@@ -149,3 +149,13 @@
     opacity: 1;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .modal_content {
+    background-color: #f4f4f4;
+  }
+
+  .project_details .description {
+    color: #1f242d;
+  }
+}

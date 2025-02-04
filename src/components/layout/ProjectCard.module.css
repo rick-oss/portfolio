@@ -88,3 +88,9 @@
 .card_bar button:hover {
   box-shadow: 0 0 10px #3fa9f5;
 }
+
+@media (prefers-color-scheme: light) {
+  .card .card_bar {
+    background-color: #1f242d;
+  }
+}

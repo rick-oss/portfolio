@@ -35,6 +35,7 @@
   text-decoration: none;
   position: relative;
   cursor: pointer;
+  color: white;
 }
 
 .links:hover {
@@ -61,4 +62,28 @@
 
 .active {
   color: #3fa9f5;
+}
+
+@media (prefers-color-scheme: light) {
+  .navbar,
+  .color,
+  .links {
+    color: #1f242d;
+  }
+
+  .active {
+    color: #3fa9f5;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Visualização Mobile */
+  .navbar ul li {
+    margin-left: 1em;
+    font-size: 0.9em;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
 }

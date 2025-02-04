@@ -31,7 +31,7 @@ function Home() {
         <div className={styles.home_content}>
           <h3>Olá, Eu sou</h3>
           <h1>Erick Nunes</h1>
-          <h3>
+          <h3 className={styles.typed_text}>
             E sou <span ref={typedElement}></span>
           </h3>
           <div className={styles.links}>

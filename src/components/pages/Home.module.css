@@ -74,3 +74,41 @@
     opacity: 1;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .home_content {
+    color: #1f242d;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home_content {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .home_content h3 {
+    font-size: 3.2em;
+  }
+
+  .home_content .typed_text {
+    font-size: 1.5em;
+  }
+
+  .links a {
+    width: 50px;
+    height: 50px;
+    font-size: 1.6em;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-top: 14px;
+  }
+
+  .image {
+    max-height: 400px;
+  }
+}

@@ -10,3 +10,9 @@
 .text p {
   line-height: 1.6;
 }
+
+@media (prefers-color-scheme: light) {
+  .text {
+    color: #1f242d;
+  }
+}

@@ -4,9 +4,10 @@
 }
 
 .about_content .text {
-  padding: 20px 0 20px;
+  padding: 20px 0;
   font-size: 17px;
 }
+
 .text p {
   line-height: 1.6;
 }
@@ -14,5 +15,15 @@
 @media (prefers-color-scheme: light) {
   .text {
     color: #1f242d;
+  }
+}
+
+@media (max-width: 500px) {
+  .about_content .text {
+    text-align: justify;
+  }
+
+  .text p {
+    line-height: 1.3;
   }
 }

@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
   };
 
   return (
-    <div>
+    <div className={styles.card_wrapper}>
       <div className={styles.card}>
         <div className={styles.image} style={{ backgroundImage: `url(${project.image})` }}>
           <div className={styles.overlay}></div>

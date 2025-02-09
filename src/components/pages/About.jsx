@@ -18,12 +18,11 @@ function About() {
               coisas novas no meu tempo livre, além de apaixonado por tecnologia, historias e jogos. Entrei em contato
               com esse mundo aos 16 anos, com a linguagem <span>Python</span>, onde desenvolvi todas as minhas bases de
               conhecimentos, conceitos e lógica. Desenvolvi alguns pequenos projetos utilizando <span>Flask</span>, e
-              nesses projetos criei uma enorme curiosidade com toda a parte front-end da coisa. Desde então, sigo
-              aprendendo e aprimorando ainda mais as minhas habilidades nessas tecnologias. Além de seguir estudando e
-              buscando aprender mais as tecnologias já citadas, atualmente estou estudando <span>Node.js</span> e o a
-              biblioteca <span>React.js</span>. Ademais, estou sempre em busca de novos desafios e oportunidades para
-              aprimorar minhas habilidades, por isso, fique à vontade para explorar meus projetos e entrar em contato
-              comigo.
+              nesses projetos criei uma enorme curiosidade com toda a parte do front-end. Desde então, sigo aprendendo e
+              aprimorando ainda mais as minhas habilidades nessas tecnologias. Além de seguir estudando e buscando
+              aprender mais as tecnologias já citadas, atualmente estou estudando <span>Node.js</span> e a biblioteca{" "}
+              <span>React.js</span>. Ademais, estou sempre em busca de novos desafios e oportunidades para aprimorar
+              minhas habilidades, por isso, fique à vontade para explorar meus projetos e entrar em contato comigo.
             </p>
           </div>
         </div>

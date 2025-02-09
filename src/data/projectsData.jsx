@@ -31,7 +31,7 @@ const projectsData = [
     videoSrc: "/videos/advice_api.mp4",
     videoFit: "cover",
     techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="JavaScript" />],
-    githubLink: "https://github.com/rick-oss",
+    githubLink: "https://github.com/rick-oss/advice_api",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const projectsData = [
     videoSrc: "/videos/pikachu_jump.mp4",
     videoFit: "contain",
     techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="javascript" />],
-    githubLink: "https://github.com/rick-oss",
+    githubLink: "https://github.com/rick-oss/pikachu_jump",
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ const projectsData = [
     videoSrc: "/videos/lantern.mp4",
     videoFit: "cover",
     techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="javascript" />],
-    githubLink: "https://github.com/rick-oss",
+    githubLink: "https://github.com/rick-oss/lanterna",
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ const projectsData = [
       <FaJsSquare key="javascript" />,
       <FaReact key="React.js" />,
     ],
-    githubLink: "https://github.com/rick-oss",
+    githubLink: "https://github.com/rick-oss/costs",
   },
 ];
 

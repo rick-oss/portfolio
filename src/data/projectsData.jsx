@@ -32,6 +32,7 @@ const projectsData = [
     videoFit: "cover",
     techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="JavaScript" />],
     githubLink: "https://github.com/rick-oss/advice_api",
+    deployLink: "https://advice-api-ashy.vercel.app",
   },
   {
     id: 2,
@@ -55,6 +56,7 @@ const projectsData = [
     videoFit: "contain",
     techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="javascript" />],
     githubLink: "https://github.com/rick-oss/pikachu_jump",
+    deployLink: "https://pikachu-jump.vercel.app",
   },
   {
     id: 3,
@@ -79,6 +81,7 @@ const projectsData = [
     videoFit: "cover",
     techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="javascript" />],
     githubLink: "https://github.com/rick-oss/lanterna",
+    deployLink: "https://lanterna.vercel.app",
   },
   {
     id: 4,
@@ -108,6 +111,32 @@ const projectsData = [
       <FaReact key="React.js" />,
     ],
     githubLink: "https://github.com/rick-oss/costs",
+    deployLink: "https://advice-api-ashy.vercel.app",
+  },
+  {
+    id: 5,
+    title: "Formulario login/registro",
+    description: (
+      <>
+        <p>
+          Desenvolvi esse projeto como conclusão do curso de React.js do canal Hora de Codar. Ele simula um gerenciador
+          de projetos completo, permitindo operações CRUD (criação, leitura, atualização e exclusão) com dados
+          armazenados em um arquivo JSON, que age como um banco de dados local.
+        </p>
+        <p>
+          O desenvolvimento deste projeto reforçou vários conceitos essenciais do React.js que aprendi durante o curso,
+          como o uso de hooks (useState, useEffect, etc.), componentização, renderização condicional, passagem e
+          manipulação de props, além de boas práticas no gerenciamento de estados e estruturação de aplicações.
+        </p>
+      </>
+    ),
+    date: "22 de Dezembro, 2023",
+    image: "/images/formulario.png",
+    videoSrc: "/videos/formulario.mp4",
+    videoFit: "cover",
+    techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="javascript" />],
+    githubLink: "https://github.com/rick-oss/formulario",
+    deployLink: "https://formulario-alpha-six.vercel.app",
   },
 ];
 

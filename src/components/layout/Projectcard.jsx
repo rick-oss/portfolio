@@ -38,7 +38,8 @@ function ProjectCard({ project }) {
           image={project.image}
           videoSrc={project.videoSrc}
           videoFit={project.videoFit}
-          links={project.githubLink}
+          githubLink={project.githubLink}
+          deployLink={project.deployLink}
         />
       )}
     </div>
@@ -55,6 +56,7 @@ ProjectCard.propTypes = {
     videoSrc: PropTypes.string.isRequired,
     videoFit: PropTypes.string.isRequired,
     githubLink: PropTypes.string.isRequired,
+    deployLink: PropTypes.string.isRequired,
     techIcons: PropTypes.arrayOf(PropTypes.shape({ key: PropTypes.string.isRequired })).isRequired,
   }).isRequired,
 };

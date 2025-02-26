@@ -4,7 +4,7 @@ import { FaX } from "react-icons/fa6";
 
 import styles from "./Modal.module.css";
 
-function Modal({ isOpen, onClose, title, description, videoSrc, videoFit, date, links }) {
+function Modal({ isOpen, onClose, title, description, videoSrc, videoFit, date, githubLink, deployLink }) {
   if (!isOpen) return null;
 
   return ReactDom.createPortal(
@@ -27,11 +27,11 @@ function Modal({ isOpen, onClose, title, description, videoSrc, videoFit, date, 
           </div>
         </div>
         <div className={styles.buttons_wrapper}>
-          <a href={links} target="_blank" rel="noopener noreferrer">
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
             Ver Repositório
           </a>
-          <a href={links} target="_blank" rel="noopener noreferrer">
-            Github
+          <a href={deployLink} target="_blank" rel="noopener noreferrer">
+            Ver Projeto
           </a>
         </div>
       </div>
@@ -48,7 +48,8 @@ Modal.propTypes = {
   videoSrc: PropTypes.string.isRequired,
   videoFit: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
-  links: PropTypes.string.isRequired,
+  githubLink: PropTypes.string.isRequired,
+  deployLink: PropTypes.string.isRequired,
 };
 
 export default Modal;

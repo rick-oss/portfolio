@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython } from "react-icons/fa";
 
 const projectsData = [
   {
@@ -85,36 +85,6 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Gerenciador de Projetos",
-    description: (
-      <>
-        <p>
-          Desenvolvi esse projeto como conclusão do curso de React.js do canal Hora de Codar. Ele simula um gerenciador
-          de projetos completo, permitindo operações CRUD (criação, leitura, atualização e exclusão) com dados
-          armazenados em um arquivo JSON, que age como um banco de dados local.
-        </p>
-        <p>
-          O desenvolvimento deste projeto reforçou vários conceitos essenciais do React.js que aprendi durante o curso,
-          como o uso de hooks (useState, useEffect, etc.), componentização, renderização condicional, passagem e
-          manipulação de props, além de boas práticas no gerenciamento de estados e estruturação de aplicações.
-        </p>
-      </>
-    ),
-    date: "7 de Novembro, 2024",
-    image: "/images/costs.png",
-    videoSrc: "/videos/costs.mp4",
-    videoFit: "contain",
-    techIcons: [
-      <FaHtml5 key="html5" />,
-      <FaCss3Alt key="css3" />,
-      <FaJsSquare key="javascript" />,
-      <FaReact key="React.js" />,
-    ],
-    githubLink: "https://github.com/rick-oss/costs",
-    deployLink: "https://advice-api-ashy.vercel.app",
-  },
-  {
-    id: 5,
     title: "Formulario login/registro",
     description: (
       <>

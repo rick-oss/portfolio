@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython } from "react-icons/fa";
 
 const projectsData = [
   {
@@ -119,22 +119,22 @@ const projectsData = [
     description: (
       <>
         <p>
-          Desenvolvi esse projeto como conclusão do curso de React.js do canal Hora de Codar. Ele simula um gerenciador
-          de projetos completo, permitindo operações CRUD (criação, leitura, atualização e exclusão) com dados
-          armazenados em um arquivo JSON, que age como um banco de dados local.
+          Esse foi meu primeiro projeto front-end, onde me propus a replicar uma interface já existente para testar meus
+          conhecimentos iniciais. Para os testes, integrei um banco de dados local em MySQL, armazenando e-mails e
+          senhas criptografadas com Bcrypt.
         </p>
         <p>
-          O desenvolvimento deste projeto reforçou vários conceitos essenciais do React.js que aprendi durante o curso,
-          como o uso de hooks (useState, useEffect, etc.), componentização, renderização condicional, passagem e
-          manipulação de props, além de boas práticas no gerenciamento de estados e estruturação de aplicações.
+          Além de ter sido minha introdução ao HTML e CSS, esse projeto foi fundamental para eu aprender o básico dessas
+          tecnologias e entender melhor o caminho que queria seguir no desenvolvimento. Foi meu divisor de águas na
+          programação.
         </p>
       </>
     ),
-    date: "22 de Dezembro, 2023",
+    date: "22 de Outubro, 2023",
     image: "/images/formulario.png",
     videoSrc: "/videos/formulario.mp4",
     videoFit: "cover",
-    techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaJsSquare key="javascript" />],
+    techIcons: [<FaHtml5 key="html5" />, <FaCss3Alt key="css3" />, <FaPython key="python" />],
     githubLink: "https://github.com/rick-oss/formulario",
     deployLink: "https://formulario-alpha-six.vercel.app",
   },

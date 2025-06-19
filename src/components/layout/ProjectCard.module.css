@@ -47,7 +47,7 @@
 
 .image h3 {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   z-index: 1;
   transform: translate(-50%, 50%);
@@ -139,6 +139,7 @@
 
   .image h3 {
     width: 100%;
+    font-size: 0.9em;
   }
 
   .card .card_bar {

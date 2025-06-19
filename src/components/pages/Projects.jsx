@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 
 import Container from "../layout/Container";
 import Title from "../layout/Title";
-import ProjectCard from "src/components/layout/Projectcard.jsx";
+import ProjectCard from "../layout/Projectcard";
 import projectsData from "../../data/projectsData";
 
 import styles from "./Projects.module.css";

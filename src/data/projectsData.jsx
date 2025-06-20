@@ -60,6 +60,43 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "TempoTrack",
+    description: (
+      <>
+        <p>
+          O &quot;TempoTrack&quot; é um app de previsão do tempo em tempo real, com base na cidade pesquisada ou
+          localização atual do usuário. Ele integra duas APIs externas: a{" "}
+          <a href="https://openweathermap.org/api" target="_blank" rel="noopener noreferrer">
+            OpenWeatherMap
+          </a>
+          , que fornece os dados climáticos, e a{" "}
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            MapBox
+          </a>
+          , usada para criar uma barra de pesquisa com autocomplete de cidades.
+        </p>
+        <p>
+          Nesse projeto, reforcei o consumo de APIs e explorei técnicas de manipulação de dados, responsividade e lógica
+          reativa com React. Também trabalhei aspectos como estados dinâmicos, permissões do navegador e a criação de
+          uma interface interativa, pensada para o uso em diferentes dispositivos.
+        </p>
+      </>
+    ),
+    date: "6 de Março, 2025",
+    image: "/images/tempo-track.png",
+    videoSrc: "/videos/tempo-track.mp4",
+    videoFit: "contain",
+    techIcons: [
+      <FaHtml5 key="html5" />,
+      <FaCss3Alt key="css3" />,
+      <FaJsSquare key="javascript" />,
+      <FaReact key="react" />,
+    ],
+    githubLink: "https://github.com/rick-oss/TempoTrack",
+    deployLink: "https://tempo-track.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Lanterna",
     description: (
       <>
@@ -84,7 +121,7 @@ const projectsData = [
     deployLink: "https://lanterna.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Formulario login/registro",
     description: (
       <>

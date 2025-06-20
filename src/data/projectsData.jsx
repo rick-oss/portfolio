@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaReact } from "react-icons/fa";
 
 const projectsData = [
   {

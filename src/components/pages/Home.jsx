@@ -52,6 +52,14 @@ function Home() {
             >
               <FaLinkedin />
             </a>
+
+            <a
+              href="mailto:erick.nunes.dev@gmail.com"
+              aria-label="Enviar e-mail"
+              title="Abrirá seu app de e-mail padrão"
+            >
+              <FaEnvelope />
+            </a>
           </div>
           <a
             href="https://drive.google.com/uc?export=download&id=1IpZeMDyAL4VhxeRodTX6rlahsvd0UrqJ"

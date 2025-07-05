@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useEffect, useRef } from "react";
 import { Element } from "react-scroll";
 import Typed from "typed.js";
@@ -6,7 +6,7 @@ import Typed from "typed.js";
 import Container from "../layout/Container";
 
 import styles from "./Home.module.css";
-import eu from "../../assets/eu.jpg";
+import eu from "../../assets/eu.png";
 
 function Home() {
   const typedElement = useRef(null);

@@ -14,7 +14,7 @@ function Navbar() {
     <nav className={styles.navbar}>
       <h1 className={styles.logo}>
         <span>&lt;Portf</span>
-        <span className={styles.color}>ólio/&gt;</span>
+        <span className={styles.color}>Ólio/&gt;</span>
       </h1>
       <ul>
         <li>
@@ -26,7 +26,7 @@ function Navbar() {
             className={`${styles.links} ${activeSection === "home" ? styles.active : ""}`}
             onSetActive={() => setActiveSection("home")}
           >
-            Home
+            Início
           </Link>
         </li>
         <li>
@@ -38,7 +38,7 @@ function Navbar() {
             className={`${styles.links} ${activeSection === "about" ? styles.active : ""}`}
             onSetActive={() => setActiveSection("about")}
           >
-            About
+            Sobre
           </Link>
         </li>
         <li>
@@ -50,7 +50,7 @@ function Navbar() {
             className={`${styles.links} ${activeSection === "skills" ? styles.active : ""}`}
             onSetActive={() => setActiveSection("skills")}
           >
-            Skills
+            Habilidades
           </Link>
         </li>
         <li>
@@ -62,7 +62,7 @@ function Navbar() {
             className={`${styles.links} ${activeSection === "projects" ? styles.active : ""}`}
             onSetActive={() => setActiveSection("projects")}
           >
-            Projects
+            Projetos
           </Link>
         </li>
       </ul>

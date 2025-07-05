@@ -35,11 +35,21 @@ function Home() {
             E sou <span ref={typedElement}></span>
           </h3>
           <div className={styles.links}>
-            <a href="https://github.com/rick-oss" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/rick-oss"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver perfil no GitHub"
+            >
               <FaGithub />
             </a>
 
-            <a href="http://www.linkedin.com/in/erick-nunes-3a1274287" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/nunes-erick/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver perfil no LinkedIn"
+            >
               <FaLinkedin />
             </a>
           </div>

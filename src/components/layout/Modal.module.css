@@ -127,6 +127,7 @@
   color: #1f242d;
   font-size: 0.8em;
   font-weight: 600;
+  user-select: none;
   background: linear-gradient(to right, #3fa9f5, #4d3ff5);
 }
 

@@ -186,10 +186,9 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .video_wrapper {
     height: 280px;
-    margin: 0;
   }
 }
 

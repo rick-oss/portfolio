@@ -49,6 +49,7 @@
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
+  user-select: none;
 }
 
 .btn:hover {
@@ -62,6 +63,7 @@
   margin-top: 25px;
   border: 2px solid #3fa9f5;
   border-radius: 10%;
+  user-select: none;
 }
 
 @keyframes slideRight {
@@ -82,7 +84,7 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .home_content {
     width: 100%;
     margin-top: 10px;
@@ -115,5 +117,6 @@
 
   .image {
     max-height: 400px;
+    margin-top: 10px;
   }
 }

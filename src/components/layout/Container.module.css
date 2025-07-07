@@ -17,7 +17,7 @@ span {
   justify-content: space-between;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .container {
     flex-direction: column-reverse;
     text-align: center;

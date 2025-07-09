@@ -8,34 +8,42 @@ function Modal({ isOpen, onClose, title, description, videoSrc, videoFit, date, 
   if (!isOpen) return null;
 
   return ReactDom.createPortal(
-    <div className={styles.modal}>
+    <section className={styles.modal_wrapper} aria-modal="true" role="dialog" aria-labelledby="modal-title">
       <div className={styles.modal_content}>
-        <div className={styles.main_content}>
+        <section className={styles.main_content}>
           <div className={styles.video_wrapper}>
-            {/*video*/}
-            <video src={videoSrc} controls autoPlay loop className={`${styles.video} ${styles[videoFit]}`} />
+            <video
+              src={videoSrc}
+              aria-label="Video do projeto"
+              controls
+              autoPlay
+              loop
+              className={`${styles.video} ${styles[videoFit]}`}
+            />
           </div>
-          <div className={styles.project_details}>
-            <div className={styles.title_wrapper}>
-              <h2>{title}</h2>
-              <button className={styles.close_button} onClick={onClose}>
+
+          <article className={styles.project_details}>
+            <header className={styles.title_wrapper}>
+              <h2 id="modal-title">{title}</h2>
+              <button className={styles.close_button} aria-label="Fechar modal" onClick={onClose}>
                 <FaX className={styles.icon_button} />
               </button>
-            </div>
+            </header>
             <div className={styles.description}>{description}</div>
             <p className={styles.date}>{date}</p>
-          </div>
-        </div>
-        <div className={styles.buttons_wrapper}>
-          <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          </article>
+        </section>
+
+        <nav className={styles.buttons_wrapper}>
+          <a href={githubLink} target="_blank" aria-label="Ver repositorio do projeto" rel="noopener noreferrer">
             Ver Repositório
           </a>
-          <a href={deployLink} target="_blank" rel="noopener noreferrer">
+          <a href={deployLink} target="_blank" aria-label="Ver deploy do projeto" rel="noopener noreferrer">
             Ver Projeto
           </a>
-        </div>
+        </nav>
       </div>
-    </div>,
+    </section>,
     document.getElementById("modal-root")
   );
 }

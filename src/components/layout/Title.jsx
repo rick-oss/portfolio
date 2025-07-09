@@ -2,16 +2,17 @@ import PropTypes from "prop-types";
 
 import styles from "./Title.module.css";
 
-const Title = ({ blueText, whiteText }) => {
+const Title = ({ id, blueText, whiteText }) => {
   return (
-    <h1 className={styles.title}>
+    <h2 id={id} className={styles.title}>
       <span>&lt;{blueText}</span>
       {whiteText}/&gt;
-    </h1>
+    </h2>
   );
 };
 
 Title.propTypes = {
+  id: PropTypes.string.isRequired,
   blueText: PropTypes.string.isRequired,
   whiteText: PropTypes.string.isRequired,
 };

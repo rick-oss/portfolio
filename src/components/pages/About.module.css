@@ -3,12 +3,9 @@
   text-align: center;
 }
 
-.about_content .text {
+.about_content p {
   padding: 20px 0;
   font-size: 17px;
-}
-
-.text p {
   line-height: 1.6;
 }
 
@@ -19,11 +16,8 @@
 }
 
 @media (max-width: 500px) {
-  .about_content .text {
+  .about_content p {
     text-align: justify;
-  }
-
-  .text p {
     line-height: 1.3;
   }
 }

@@ -1,9 +1,0 @@
-.title {
-  font-size: 2em;
-}
-
-@media (prefers-color-scheme: light) {
-  .title {
-    color: #1f242d;
-  }
-}

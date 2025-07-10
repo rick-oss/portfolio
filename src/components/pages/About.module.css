@@ -1,0 +1,23 @@
+.about_content {
+  max-width: 750px;
+  text-align: center;
+}
+
+.about_content p {
+  padding: 20px 0;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: light) {
+  .text {
+    color: #1f242d;
+  }
+}
+
+@media (max-width: 500px) {
+  .about_content p {
+    text-align: justify;
+    line-height: 1.3;
+  }
+}

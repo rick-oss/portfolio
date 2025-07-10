@@ -1,0 +1,156 @@
+.card {
+  width: 500px;
+  max-width: 100%;
+  margin: 25px 15px 0;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card:hover button {
+  background-color: #3fa9f5;
+  color: #171a20;
+  border: none;
+}
+
+.card:hover .overlay,
+.card:hover h3 {
+  opacity: 0;
+}
+
+.card .image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 280px;
+  border-radius: 0 20px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 20px 0 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image h3 {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, 50%);
+  transition: opacity 0.3s ease;
+}
+
+.card .card_bar {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: #0d1117;
+  border-bottom: 3.5px solid #3fa9f5;
+}
+
+.card_icons {
+  padding: 15px 0 6.5px;
+}
+
+.card_icons span {
+  color: #3fa9f5;
+  font-size: 1.7em;
+  margin-left: 12px;
+}
+
+.card_bar button {
+  height: 25px;
+  padding: 0 15px;
+  margin: 15px 12px 6.5px 0;
+  background-color: transparent;
+  font-size: 0.9em;
+  color: #555;
+  font-weight: 600;
+  border: 1px solid #555;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card_bar button:hover {
+  box-shadow: 0 0 10px #3fa9f5;
+}
+
+@media (prefers-color-scheme: light) {
+  .card .card_bar {
+    background-color: #1f242d;
+  }
+}
+
+@media (max-width: 600px) {
+  .card_wrapper {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .card .image {
+    height: 230px;
+  }
+
+  .image h3 {
+    font-size: 1em;
+  }
+
+  .card .card_bar {
+    border-bottom: 2.5px solid #3fa9f5;
+  }
+
+  .card_icons {
+    padding: 10px 0 5px;
+  }
+
+  .card_icons span {
+    color: #3fa9f5;
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+
+  .card_bar button {
+    padding: 0 15px;
+    margin: 10px 12px 5px 0;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 450px) {
+  .card .image {
+    height: 180px;
+  }
+
+  .image h3 {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  .card .card_bar {
+    border-bottom: 2px solid #3fa9f5;
+  }
+
+  .card_icons span {
+    font-size: 1.4em;
+  }
+
+  .card_bar button {
+    padding: 0 12px;
+  }
+}

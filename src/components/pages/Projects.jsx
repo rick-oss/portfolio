@@ -1,7 +1,7 @@
 import ScrollSection from "../layout/ScrollSection";
 import projectsData from "../../data/projectsData";
 import Title from "../common/Title";
-import ProjectCard from "../projects/Projectcard";
+import ProjectCard from "../projects/ProjectCard";
 
 import styles from "./Projects.module.css";
 
@@ -12,14 +12,14 @@ function Projects() {
         <Title id="projects-title" blueText="Proje" whiteText="Tos" />
         <ul className={styles.items}>
           {projectsData.map((project) => (
-            <li key={project.id}>
+            <li key={project.id/}>
               <ProjectCard project={project} />
             </li>
-          ))}
-        </ul>
-      </div>
+           ))}
+         </ul>
+       </div>
     </ScrollSection>
-  );
+);
 }
 
 export default Projects;

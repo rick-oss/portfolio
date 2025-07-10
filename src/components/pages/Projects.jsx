@@ -12,7 +12,7 @@ function Projects() {
         <Title id="projects-title" blueText="Proje" whiteText="Tos" />
         <ul className={styles.items}>
           {projectsData.map((project) => (
-            <li key={project.id/}>
+            <li key={project.id}>
               <ProjectCard project={project} />
             </li>
            ))}

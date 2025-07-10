@@ -1,5 +1,5 @@
 import ScrollSection from "../layout/ScrollSection";
-import Title from "../layout/Title";
+import Title from "../common/Title";
 
 import styles from "./About.module.css";
 

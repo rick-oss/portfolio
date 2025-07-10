@@ -2,8 +2,8 @@ import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaPython, FaJs } from "react-ico
 import { useInView } from "react-intersection-observer";
 
 import ScrollSection from "../layout/ScrollSection";
-import SkillCard from "../layout/SkillCard";
-import Title from "../layout/Title";
+import SkillCard from "../skills/SkillCard";
+import Title from "../common/Title";
 
 import styles from "./Skills.module.css";
 

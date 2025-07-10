@@ -1,7 +1,7 @@
 import ScrollSection from "../layout/ScrollSection";
-import Title from "../layout/Title";
-import ProjectCard from "../layout/Projectcard";
+import ProjectCard from "../projects/Projectcard";
 import projectsData from "../../data/projectsData";
+import Title from "../common/Title";
 
 import styles from "./Projects.module.css";
 

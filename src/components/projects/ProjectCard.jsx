@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 
-import Modal from "./Modal";
+import Modal from "../common/Modal";
 import styles from "./ProjectCard.module.css";
 
 function ProjectCard({ project }) {
@@ -9,7 +9,6 @@ function ProjectCard({ project }) {
 
   const handleModalToggle = () => {
     setIsModalOpen(!isModalOpen);
-    console.log(isModalOpen);
   };
 
   return (

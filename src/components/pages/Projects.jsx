@@ -1,3 +1,11 @@
+// ─────────────────────────────────────────────────────────────~
+// Projects.jsx
+// Seção "Projetos" do portfólio SPA
+//  1. Exibe uma grade de projetos com detalhes e links
+//  2. Cada projeto é renderizado com o componente ProjectCard
+//  3. Renderizada dentro de <ScrollSection name="projects" />
+// ─────────────────────────────────────────────────────────────
+
 import ScrollSection from "../layout/ScrollSection";
 import projectsData from "../../data/projectsData";
 import Title from "../common/Title";
@@ -15,11 +23,11 @@ function Projects() {
             <li key={project.id}>
               <ProjectCard project={project} />
             </li>
-           ))}
-         </ul>
-       </div>
+          ))}
+        </ul>
+      </div>
     </ScrollSection>
-);
+  );
 }
 
 export default Projects;

@@ -1,3 +1,11 @@
+// ─────────────────────────────────────────────────────────────
+// Skills.jsx
+// Seção "Habilidades" do portfólio SPA
+//  1. Exibe ícones de habilidades com animação de entrada
+//  2. Usa Intersection Observer para animar a entrada dos itens
+//  3. Renderizada dentro de <ScrollSection name="skills" />
+// ─────────────────────────────────────────────────────────────
+
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaPython, FaJs } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 

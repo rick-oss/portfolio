@@ -1,3 +1,10 @@
+// ─────────────────────────────────────────────────────────────
+// About.jsx
+// Seção "Sobre Mim" do portfólio SPA
+//  1. Texto de apresentação com destaques de tecnologias via <span>
+//  2. Renderizada dentro de <ScrollSection name="about" />
+// ─────────────────────────────────────────────────────────────
+
 import ScrollSection from "../layout/ScrollSection";
 import Title from "../common/Title";
 

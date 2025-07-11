@@ -1,14 +1,18 @@
-import { useEffect, useState } from "react";
+//  ─────────────────────────────────────────────────────────────
+// Navbar.jsx
+// Componente de navegação fixo no topo da página
+//  1. Exibe links para as seções da SPA(inicio, sobre, habilidades, projetos)
+//  2. Usa Link do react-scroll para rolagem suave
+//  3. Usa useState para gerenciar a seção ativa
+//  ─────────────────────────────────────────────────────────────
+
+import { useState } from "react";
 import { Link } from "react-scroll";
 
 import styles from "./Navbar.module.css";
 
 function Navbar() {
   const [activeSection, setActiveSection] = useState("home");
-
-  useEffect(() => {
-    setActiveSection("home");
-  }, []);
 
   return (
     <nav className={styles.navbar}>
@@ -23,7 +27,9 @@ function Navbar() {
             spy={true}
             smooth={true}
             duration={500}
-            className={`${styles.links} ${activeSection === "home" ? styles.active : ""}`}
+            className={`${styles.links} ${
+              activeSection === "home" ? styles.active : ""
+            }`} /* Classe aplicada na seção ativa */
             onSetActive={() => setActiveSection("home")}
           >
             Início

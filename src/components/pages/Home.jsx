@@ -1,3 +1,11 @@
+// ─────────────────────────────────────────────────────────────
+// Home.jsx
+// Seção "Início" do portfólio SPA
+//  1. Exibe apresentação pessoal e links sociais
+//  2. Contém animação de digitação para destacar a área de atuação
+//  3. Renderizada dentro de <ScrollSection name="home" />
+// ─────────────────────────────────────────────────────────────
+
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";

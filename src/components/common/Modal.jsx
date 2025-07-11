@@ -1,9 +1,27 @@
-import PropTypes from "prop-types";
+// ─────────────────────────────────────────────────────────────
+// Modal.jsx
+// Componente para exibir um modal com detalhes de um projeto
+//  1. Renderiza via createPortal
+//  2. Exibe vídeo, título, descrição, data e links do projeto
+//  3. Suporta fechamento via função onClose
+// ─────────────────────────────────────────────────────────────
+
 import ReactDom from "react-dom";
 import { FaX } from "react-icons/fa6";
 
+import PropTypes from "prop-types";
 import styles from "./Modal.module.css";
 
+// props
+// isOpen: Controla se o modal está aberto ou fechado
+// onClose: Função para fechar o modal
+// title: título do projeto
+// description: descrição do projeto
+// videoSrc: caminho do vídeo do projeto
+// videoFit: como o vídeo deve se ajustar (cover ou contain)
+// date: data do projeto
+// githubLink: link para o repositório do projeto no GitHub
+// deployLink: link para o deploy do projeto
 function Modal({ isOpen, onClose, title, description, videoSrc, videoFit, date, githubLink, deployLink }) {
   if (!isOpen) return null;
 
@@ -52,7 +70,7 @@ Modal.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.object.isRequired,
+  description: PropTypes.node.isRequired,
   videoSrc: PropTypes.string.isRequired,
   videoFit: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,

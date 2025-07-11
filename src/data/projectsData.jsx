@@ -1,3 +1,11 @@
+// ─────────────────────────────────────────────────────────────
+// projectsData.jsx
+// Dados dos projetos para exibição no portfólio
+//  1. Contém título, descrição, data, links e ícones de tecnologias
+//  2. Cada projeto tem um vídeo demonstrativo e uma imagem
+//  3. Exporta um array de objetos com as informações dos projetos
+// ─────────────────────────────────────────────────────────────
+
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaReact } from "react-icons/fa";
 
 const projectsData = [

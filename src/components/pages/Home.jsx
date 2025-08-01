@@ -64,7 +64,7 @@ function Home() {
           </a>
         </nav>
         <a
-          href="https://drive.google.com/uc?export=download&id=1IpZeMDyAL4VhxeRodTX6rlahsvd0UrqJ"
+          href="https://drive.google.com/uc?export=download&id=1JSEp6gW5wUTE36V0VrT1CTW4L0tfq9sr"
           download
           className={styles.btn}
           aria-label="Baixar currículo em PDF"

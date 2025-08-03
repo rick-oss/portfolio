@@ -10,10 +10,10 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
-import ScrollSection from "../layout/ScrollSection";
+import ScrollSection from "../components/layout/ScrollSection";
 
 import styles from "./Home.module.css";
-import eu from "../../assets/eu.png";
+import eu from "../assets/eu.png";
 
 function Home() {
   const typedElement = useRef(null);

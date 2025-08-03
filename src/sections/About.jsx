@@ -5,8 +5,8 @@
 //  2. Renderizada dentro de <ScrollSection name="about" />
 // ─────────────────────────────────────────────────────────────
 
-import ScrollSection from "../layout/ScrollSection";
-import Title from "../common/Title";
+import ScrollSection from "../components/layout/ScrollSection";
+import Title from "../components/common/Title";
 
 import styles from "./About.module.css";
 

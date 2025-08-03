@@ -9,9 +9,9 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaPython, FaJs } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 
-import ScrollSection from "../layout/ScrollSection";
-import SkillCard from "../skills/SkillCard";
-import Title from "../common/Title";
+import ScrollSection from "../components/layout/ScrollSection";
+import SkillCard from "../components/skills/SkillCard";
+import Title from "../components/common/Title";
 
 import styles from "./Skills.module.css";
 

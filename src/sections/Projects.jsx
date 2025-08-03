@@ -6,10 +6,10 @@
 //  3. Renderizada dentro de <ScrollSection name="projects" />
 // ─────────────────────────────────────────────────────────────
 
-import ScrollSection from "../layout/ScrollSection";
-import projectsData from "../../data/projectsData";
-import Title from "../common/Title";
-import ProjectCard from "../projects/ProjectCard";
+import ScrollSection from "../components/layout/ScrollSection";
+import projectsData from "../data/projectsData";
+import Title from "../components/common/Title";
+import ProjectCard from "../components/projects/ProjectCard";
 
 import styles from "./Projects.module.css";
 

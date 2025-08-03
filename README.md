@@ -13,7 +13,7 @@
     <img alt="Mockup do portfólio" src=".github/mockup.png" width="100%">
 </p>
 
-## ⚙️ Tecnologias Usadas
+## 🔧 Tecnologias Usadas
 
 - React.js
 - HTML

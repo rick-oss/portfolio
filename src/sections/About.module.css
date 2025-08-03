@@ -10,7 +10,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .text {
+  .about_content p {
     color: #1f242d;
   }
 }
